@@ -1,0 +1,342 @@
+Allegro Design Entry HDL 16.3-S021 (v16-3-85AK) 12/6/2010
+
+
+script
+mpsdeclare
+mpsdeclare
+mpsdeclare
+mpsdeclare
+mpsdeclare
+mpsdeclare
+mpsdeclare
+set ORTHOG_wire
+set
+set move_ORTHOG
+set
+set autoroute ON
+set
+set autoheavy ON
+set
+set attributes_dir "C:\Cadence\SPB_16.3/tools/fet/concept/attributes"
+set
+set dots_FILLED
+set
+set autodot ON
+set
+set logic_dot_radius 13
+set
+set body_dot_radius 13
+set
+set tap_body CTAP
+set
+set size 1.000
+set
+set LEFT
+set
+set capslock_ON
+set
+set inline_textedit ON
+set
+set user_editor "notepad"
+set
+set prop_display VALUE
+set
+set pinprop_vis OFF
+set
+set pin_size 0.805
+set
+set rotate ON
+set
+set autopath ON
+set
+set sticky_OFF
+set
+set rmb OFF
+set
+set autopan OFF
+set
+set image_color_wire default
+set
+set image_color_dot default
+set
+set image_color_body default
+set
+set image_color_arc default
+set
+set image_color_prop default
+set
+set image_color_occprop default
+set
+set image_color_note default
+set
+set image_background_color black
+set
+set color_wire yellow
+set
+set color_dot white
+set
+set color_body green
+set
+set color_arc yellow
+set
+set color_prop orange
+set
+set occ_color red
+set
+set color_note purple
+set
+set background_color white
+set
+set highlight_color "default"
+set
+set DECIMAL
+set
+set default_grid OFF
+set
+set default_grid DOTS
+set
+set default_body_grid OFF
+set
+set default_body_grid DOTS
+set
+set default_doc_grid OFF
+set
+set default_doc_grid DOTS
+set
+set check_on_write ON
+set
+set check_missing_pins ON
+set
+set check_shorted_pin ON
+set
+set check_unconn_wires ON
+set
+set check_voltage_on_hdl ON
+set
+set check_parts_at_same_loc ON
+set
+set check_arcs_at_same_loc ON
+set
+set check_hidden_wires ON
+set
+set check_pins_at_origin ON
+set
+set check_pin_near_wire_endpt ON
+set
+set check_pin_wire_dist_thresh "DEFAULT"
+set
+set check_two_wires_at_pins ON
+set
+set check_signames ON
+set
+set check_signame_in_body ON
+set
+set check_body_place_holders ON
+set
+set check_prop_place_holders ON
+set
+set check_pack_sec_type_props ON
+set
+set check_nonsyncprops ON
+set
+set confirm_write OFF
+set
+set ascii
+set
+set delete_ascii OFF
+set
+set binary
+set
+set delete_binary OFF
+set
+set nodependency
+set
+set hdl_direct on
+set
+set click_to_type ON
+set
+set save_workspace ON
+set
+set addform ON
+set
+set editform ON
+set
+set libform ON
+set
+set catpath 
+set
+Unknown project directive : FATAL_MESSAGES
+Unknown project directive : ERROR_MESSAGES
+Unknown project directive : INFORMATIONAL_MESSAGES
+Unknown project directive : WARNING_MESSAGES
+set wplot_thin_width 1
+set
+set wplot_thick_width 10
+set
+set wplot_scale 100
+set
+set wplot_adjust_scale
+set
+set wplot_sheet
+set
+set multiformat_vectors ON
+set
+set ppt_optionset_path ""
+set
+set ppt_browser OFF
+set
+set lmb ON
+set
+set path_prefix "I"
+set
+set check_global_local_short ON
+set
+set max_drawings "50"
+set
+set modify_multiprop OFF
+set
+set check_power_props ON
+set
+set allow_power_pins ON
+set
+set powerprop_vis VALUE
+set
+set pathprop_invisible OFF
+set
+set allow_property_locking ON
+set
+set retver_replace OFF
+set
+set allow_comp_overlap OFF
+set
+set retain_location_on_copyall ON
+set
+set expand_before_global_navigate PROMPT
+set
+set check_page_synch ON
+set
+set dont_annotate_opt_value OFF
+set
+set generate_tdd_netlist OFF
+set
+set retain_prev_hilite OFF
+set
+set lock_for_same_user OFF
+set
+set sync_on_page_edit OFF
+set
+set generate_sch_metadata OFF
+set
+set hardloc_copy ON
+set
+set allow_page_locking ON
+set
+set thick_block_border OFF
+set
+set thick_vector_pin_width OFF
+set
+set show_pnn_signame OFF
+set
+set hide_hierarchy_pages OFF
+set
+WARNING(SPCOCN-1523): Invalid set option: <OFF>
+set page_name_prop ""
+set
+set page_name_case PRESERVE
+set
+set preserve_zoom_info ON
+set
+set lock_file_perm 444
+set
+set custom_cdslib_search OFF
+set
+set replace_ptf_props OFF
+set
+set ign_quotes_mps_msg OFF
+set
+Unknown project directive : SHOW_UNCONNECTED_PINS
+set honor_sch_custom_texts off
+set
+set hyperlinks on
+set
+WARNING(SPCOCN-1523): Invalid set option: <on>
+set use_mono_as_symbol_color off
+set
+set preselect_flag on
+set
+set windowsmode_flag on
+set
+WARNING(SPCOCN-1523): Invalid set option: <on>
+set delete_unattached_invisible_props ON
+set
+set default_page_border_name "ge_c_size_page"
+set
+set default_page_border_version 1
+set
+set default_grid 0.050 5
+set
+set default_body_grid 0.050 2
+set
+set default_doc_grid 0.100 5
+set
+INFO(SPCOCN-1737): Reading .\cds.lib file.
+nmapedit 808bd
+nmapedit
+_!editincontext
+INFO(SPCOCN-1446): New schematic 808BD.SCH.1.1 started as drawing #1.
+library
+library
+library
+library
+library
+library
+library
+library
+library
+library
+library
+library
+library
+library
+library
+library
+library
+library
+get
+INFO(SPCOCN-1445): Reading 808BD.SCH.1.1 into drawing #1.
+INFO(SPCOCN-1350): User '214016586' has an existing lock on the file 'D:\Misc\808BD\worklib\808bd\sch_1\page1.csb'. Removing it.
+backannotate
+INFO(SPCOCN-1028): writing <808bd_lib>808BD.SCH.1.1:
+INFO(SPCOCN-1044): writing binary file...
+INFO(SPCOCN-1049): writing ASCII file...
+INFO(SPCOCN-1053): writing connectivity file...
+INFO(SPCOCN-1054): ...written
+INFO(SPCOCN-1055): writing HDL files...
+ HDL Direct 16.3-S021 (v16-3-85AK) 12/6/2010 
+
+Copyright (C) 1996 Cadence Design Systems, Inc.
+
+
+Processing cell view:   808BD(SCH_1)
+
+
+Generating for languages: Verilog 
+
+Processing page 1
+
+Total number of pages: 1
+
+
+
+Generating Output File lib.cell:view 808bd_lib.808bd:sch_1
+
+
+Design Entry HDL Direct: Created Netlist.
+
+
+No HDL Direct errors found. 
+
+INFO(SPCOCN-1056): ...HDL written
+nmapedit
+_!editincontext
+exit

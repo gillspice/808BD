@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:shoppingCart xmlns:sc="http://www.cadence.com/SPB/shopping_cart" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" checksum="0">
+	<component cell="r_smt" library="r_resistor" partname="R_SMT_0805" partno="10006490" quantity="1" >
+		<property name="JEDEC_TYPE"  value="RESC-0805_W"/>
+		<property name="PART_NAME"  value="R_SMT_0805"/>
+		<property name="PART_NUMBER"  value="10006490"/>
+		<property name="TOL"  value="5%"/>
+		<property name="TYPE"  value="TF-SMT0805"/>
+		<property name="VALUE"  value="10K"/>
+		<property name="WATTAGE"  value="1/8W"/>
+	</component>
+	<component cell="r_smt" library="r_resistor" partname="R_SMT_0805" partno="10006506" quantity="1" >
+		<property name="JEDEC_TYPE"  value="RESC-0805_W"/>
+		<property name="PART_NAME"  value="R_SMT_0805"/>
+		<property name="PART_NUMBER"  value="10006506"/>
+		<property name="TOL"  value="5%"/>
+		<property name="TYPE"  value="TF-SMT0805"/>
+		<property name="VALUE"  value="47K"/>
+		<property name="WATTAGE"  value="1/8W"/>
+	</component>
+	<component cell="r_smt" library="r_resistor" partname="R_SMT_0805" partno="10006498" quantity="1" >
+		<property name="JEDEC_TYPE"  value="RESC-0805_W"/>
+		<property name="PART_NAME"  value="R_SMT_0805"/>
+		<property name="PART_NUMBER"  value="10006498"/>
+		<property name="TOL"  value="5%"/>
+		<property name="TYPE"  value="TF-SMT0805"/>
+		<property name="VALUE"  value="22K"/>
+		<property name="WATTAGE"  value="1/8W"/>
+	</component>
+	<component cell="r_smt" library="r_resistor" partname="R_SMT_0805" partno="10006482" quantity="1" >
+		<property name="JEDEC_TYPE"  value="RESC-0805_W"/>
+		<property name="PART_NAME"  value="R_SMT_0805"/>
+		<property name="PART_NUMBER"  value="10006482"/>
+		<property name="TOL"  value="5%"/>
+		<property name="TYPE"  value="TF-SMT0805"/>
+		<property name="VALUE"  value="4.7K"/>
+		<property name="WATTAGE"  value="1/8W"/>
+	</component>
+	<component cell="r_smt" library="r_resistor" partname="R_SMT_0805" partno="10006488" quantity="1" >
+		<property name="JEDEC_TYPE"  value="RESC-0805_W"/>
+		<property name="PART_NAME"  value="R_SMT_0805"/>
+		<property name="PART_NUMBER"  value="10006488"/>
+		<property name="TOL"  value="5%"/>
+		<property name="TYPE"  value="TF-SMT0805"/>
+		<property name="VALUE"  value="8.2K"/>
+		<property name="WATTAGE"  value="1/8W"/>
+	</component>
+	<component cell="r_smt" library="r_resistor" partname="R_SMT_0805" partno="10006476" quantity="1" >
+		<property name="JEDEC_TYPE"  value="RESC-0805_W"/>
+		<property name="PART_NAME"  value="R_SMT_0805"/>
+		<property name="PART_NUMBER"  value="10006476"/>
+		<property name="TOL"  value="5%"/>
+		<property name="TYPE"  value="TF-SMT0805"/>
+		<property name="VALUE"  value="2.7K"/>
+		<property name="WATTAGE"  value="1/8W"/>
+	</component>
+	<component cell="r_smt" library="r_resistor" partname="R_SMT_0805" partno="10006538" quantity="1" >
+		<property name="JEDEC_TYPE"  value="RESC-0805_W"/>
+		<property name="PART_NAME"  value="R_SMT_0805"/>
+		<property name="PART_NUMBER"  value="10006538"/>
+		<property name="TOL"  value="5%"/>
+		<property name="TYPE"  value="TF-SMT0805"/>
+		<property name="VALUE"  value="1.0M"/>
+		<property name="WATTAGE"  value="1/8W"/>
+	</component>
+	<component cell="r_smt" library="r_resistor" partname="R_SMT_0805" partno="10006514" quantity="1" >
+		<property name="JEDEC_TYPE"  value="RESC-0805_W"/>
+		<property name="PART_NAME"  value="R_SMT_0805"/>
+		<property name="PART_NUMBER"  value="10006514"/>
+		<property name="TOL"  value="5%"/>
+		<property name="TYPE"  value="TF-SMT0805"/>
+		<property name="VALUE"  value="100K"/>
+		<property name="WATTAGE"  value="1/8W"/>
+	</component>
+	<component cell="r_smt" library="r_resistor" partname="R_SMT_0805" partno="10006530" quantity="1" >
+		<property name="JEDEC_TYPE"  value="RESC-0805_W"/>
+		<property name="PART_NAME"  value="R_SMT_0805"/>
+		<property name="PART_NUMBER"  value="10006530"/>
+		<property name="TOL"  value="5%"/>
+		<property name="TYPE"  value="TF-SMT0805"/>
+		<property name="VALUE"  value="470K"/>
+		<property name="WATTAGE"  value="1/8W"/>
+	</component>
+	<component cell="q_npn_signal" library="q_transistor" partname="Q_NPN_SIGNAL_BEC_SOT-323" partno="10005453" quantity="1" >
+		<property name="IC"  value="0.15A"/>
+		<property name="JEDEC_TYPE"  value="SOT-323_W"/>
+		<property name="PART_NAME"  value="Q_NPN_SIGNAL_BEC_SOT-323"/>
+		<property name="PART_NUMBER"  value="10005453"/>
+		<property name="TYPE"  value="NPN Signal"/>
+		<property name="VALUE"  value="FJX945"/>
+		<property name="VCEO"  value="50V"/>
+	</component>
+	<component cell="q_pnp_signal" library="q_transistor" partname="Q_PNP_SIGNAL_BEC_SOT-323" partno="10005646" quantity="1" >
+		<property name="IC"  value="0.15A"/>
+		<property name="JEDEC_TYPE"  value="SOT-323_W"/>
+		<property name="PART_NAME"  value="Q_PNP_SIGNAL_BEC_SOT-323"/>
+		<property name="PART_NUMBER"  value="10005646"/>
+		<property name="TYPE"  value="PNP Signal"/>
+		<property name="VALUE"  value="FJX733"/>
+		<property name="VCEO"  value="50V"/>
+	</component>
+	<component cell="c_smt" library="c_capacitor" partname="C_SMT_X7R_0805" partno="10000435" quantity="1" >
+		<property name="JEDEC_TYPE"  value="CAPC-0805_W"/>
+		<property name="PART_NAME"  value="C_SMT_X7R_0805"/>
+		<property name="PART_NUMBER"  value="10000435"/>
+		<property name="TOL"  value="5%"/>
+		<property name="TYPE"  value="X7R"/>
+		<property name="VALUE"  value="0.015uF"/>
+		<property name="VOLT"  value="25V"/>
+	</component>
+	<component cell="c_smt" library="c_capacitor" partname="C_SMT_X7R_0805" partno="10000445" quantity="1" >
+		<property name="JEDEC_TYPE"  value="CAPC-0805_W"/>
+		<property name="PART_NAME"  value="C_SMT_X7R_0805"/>
+		<property name="PART_NUMBER"  value="10000445"/>
+		<property name="TOL"  value="5%"/>
+		<property name="TYPE"  value="X7R"/>
+		<property name="VALUE"  value="0.1uF"/>
+		<property name="VOLT"  value="25V"/>
+	</component>
+	<component cell="d_smt_signal" library="d_diode" partname="D_SMT_SIGNAL_1A3C_SOT-23" partno="10004947" quantity="1" >
+		<property name="IF"  value="200mA"/>
+		<property name="JEDEC_TYPE"  value="SOT-23_W"/>
+		<property name="PART_NAME"  value="D_SMT_SIGNAL_1A3C_SOT-23"/>
+		<property name="PART_NUMBER"  value="10004947"/>
+		<property name="TYPE"  value="Signal-3pin"/>
+		<property name="VALUE"  value="MMBD4148"/>
+		<property name="VRRM"  value="75V"/>
+	</component>
+	<component cell="c_smt" library="c_capacitor" partname="C_SMT_X7R_0805" partno="10000439" quantity="1" >
+		<property name="JEDEC_TYPE"  value="CAPC-0805_W"/>
+		<property name="PART_NAME"  value="C_SMT_X7R_0805"/>
+		<property name="PART_NUMBER"  value="10000439"/>
+		<property name="TOL"  value="5%"/>
+		<property name="TYPE"  value="X7R"/>
+		<property name="VALUE"  value="0.033uF"/>
+		<property name="VOLT"  value="25V"/>
+	</component>
+	<component cell="c_smt" library="c_capacitor" partname="C_SMT_X7R_0805" partno="10000726" quantity="1" >
+		<property name="JEDEC_TYPE"  value="CAPC-0805_W"/>
+		<property name="PART_NAME"  value="C_SMT_X7R_0805"/>
+		<property name="PART_NUMBER"  value="10000726"/>
+		<property name="TOL"  value="20%"/>
+		<property name="TYPE"  value="X7R"/>
+		<property name="VALUE"  value="220pF"/>
+		<property name="VOLT"  value="50V"/>
+	</component>
+	<component cell="r_smt" library="r_resistor" partname="R_SMT_0805" partno="10006486" quantity="1" >
+		<property name="JEDEC_TYPE"  value="RESC-0805_W"/>
+		<property name="PART_NAME"  value="R_SMT_0805"/>
+		<property name="PART_NUMBER"  value="10006486"/>
+		<property name="TOL"  value="5%"/>
+		<property name="TYPE"  value="TF-SMT0805"/>
+		<property name="VALUE"  value="6.8K"/>
+		<property name="WATTAGE"  value="1/8W"/>
+	</component>
+	<component cell="r_trimmerpotentiometers" library="r_resistor" partname="R_TRIMMER_PT-15XV15" partno="10013689" quantity="1" >
+		<property name="JEDEC_TYPE"  value="RES-PT-15XV15"/>
+		<property name="PART_NAME"  value="R_TRIMMER_PT-15XV15"/>
+		<property name="PART_NUMBER"  value="10013689"/>
+		<property name="TOL"  value="20%"/>
+		<property name="TYPE"  value="Trimmer"/>
+		<property name="VALUE"  value="5K"/>
+		<property name="WATTAGE"  value="1/4W"/>
+	</component>
+	<component cell="r_smt" library="r_resistor" partname="R_SMT_0805" partno="10006450" quantity="1" >
+		<property name="JEDEC_TYPE"  value="RESC-0805_W"/>
+		<property name="PART_NAME"  value="R_SMT_0805"/>
+		<property name="PART_NUMBER"  value="10006450"/>
+		<property name="TOL"  value="5%"/>
+		<property name="TYPE"  value="TF-SMT0805"/>
+		<property name="VALUE"  value="220"/>
+		<property name="WATTAGE"  value="1/8W"/>
+	</component>
+	<component cell="u_lm258d" library="u_ic" partname="U_LM258D_SO8" partno="10019370" quantity="1" >
+		<property name="JEDEC_TYPE"  value="SO8"/>
+		<property name="PART_NAME"  value="U_LM258D_SO8"/>
+		<property name="PART_NUMBER"  value="10019370"/>
+		<property name="VALUE"  value="LM258D"/>
+	</component>
+	<component cell="c_th_lytic85" library="c_capacitor" partname="C_TH_LYTIC85_2P0_5X11P5" partno="10002898" quantity="1" >
+		<property name="JEDEC_TYPE"  value="CAPE_2P0_5X11P5"/>
+		<property name="PART_NAME"  value="C_TH_LYTIC85_2P0_5X11P5"/>
+		<property name="PART_NUMBER"  value="10002898"/>
+		<property name="TEMP"  value="85c"/>
+		<property name="TOL"  value="20%"/>
+		<property name="TYPE"  value="Radial"/>
+		<property name="VALUE"  value="33uF"/>
+		<property name="VOLT"  value="6.3Vdc"/>
+	</component>
+	<component cell="c_th_lytic85" library="c_capacitor" partname="C_TH_LYTIC85_2P5_6P3X11P5" partno="10002982" quantity="1" >
+		<property name="JEDEC_TYPE"  value="CAPE_2P5_6P3X11P5"/>
+		<property name="PART_NAME"  value="C_TH_LYTIC85_2P5_6P3X11P5"/>
+		<property name="PART_NUMBER"  value="10002982"/>
+		<property name="TEMP"  value="85c"/>
+		<property name="TOL"  value="20%"/>
+		<property name="TYPE"  value="Radial"/>
+		<property name="VALUE"  value="47uF"/>
+		<property name="VOLT"  value="50Vdc"/>
+	</component>
+	<component cell="c_th_lytic85" library="c_capacitor" partname="C_TH_LYTIC85_2P0_5X11P5" partno="10002975" quantity="1" >
+		<property name="JEDEC_TYPE"  value="CAPE_2P0_5X11P5"/>
+		<property name="PART_NAME"  value="C_TH_LYTIC85_2P0_5X11P5"/>
+		<property name="PART_NUMBER"  value="10002975"/>
+		<property name="TEMP"  value="85c"/>
+		<property name="TOL"  value="20%"/>
+		<property name="TYPE"  value="Radial"/>
+		<property name="VALUE"  value="1.0uF"/>
+		<property name="VOLT"  value="50Vdc"/>
+	</component>
+	<component cell="r_smt" library="r_resistor" partname="R_SMT_0805" partno="10006512" quantity="1" >
+		<property name="JEDEC_TYPE"  value="RESC-0805_W"/>
+		<property name="PART_NAME"  value="R_SMT_0805"/>
+		<property name="PART_NUMBER"  value="10006512"/>
+		<property name="TOL"  value="5%"/>
+		<property name="TYPE"  value="TF-SMT0805"/>
+		<property name="VALUE"  value="82K"/>
+		<property name="WATTAGE"  value="1/8W"/>
+	</component>
+	<component cell="r_smt" library="r_resistor" partname="R_SMT_0805" partno="10006466" quantity="1" >
+		<property name="JEDEC_TYPE"  value="RESC-0805_W"/>
+		<property name="PART_NAME"  value="R_SMT_0805"/>
+		<property name="PART_NUMBER"  value="10006466"/>
+		<property name="TOL"  value="5%"/>
+		<property name="TYPE"  value="TF-SMT0805"/>
+		<property name="VALUE"  value="1.0K"/>
+		<property name="WATTAGE"  value="1/8W"/>
+	</component>
+	<component cell="j_2_st" library="j_connector2fjumper" partname="J_2_ST_AMP_640452" partno="10017071" quantity="1" >
+		<property name="JEDEC_TYPE"  value="CONN-AMP-2PIN-100MIL-ST"/>
+		<property name="PART_NAME"  value="J_2_ST_AMP_640452"/>
+		<property name="PART_NUMBER"  value="10017071"/>
+		<property name="VALUE"  value="640452-2"/>
+	</component>
+	<component cell="j_3_st" library="j_connector2fjumper" partname="J_3_ST_AMP_640456" partno="10017170" quantity="1" >
+		<property name="JEDEC_TYPE"  value="CONN-AMP-3PIN-100MIL-ST"/>
+		<property name="PART_NAME"  value="J_3_ST_AMP_640456"/>
+		<property name="PART_NUMBER"  value="10017170"/>
+		<property name="VALUE"  value="640456-3"/>
+	</component>
+	<component cell="r_smt" library="r_resistor" partname="R_SMT_2010" partno="10006228" quantity="1" >
+		<property name="JEDEC_TYPE"  value="RESC-2010_W"/>
+		<property name="PART_NAME"  value="R_SMT_2010"/>
+		<property name="PART_NUMBER"  value="10006228"/>
+		<property name="TOL"  value="5%"/>
+		<property name="TYPE"  value="TF-SMT2010"/>
+		<property name="VALUE"  value="1.0M"/>
+		<property name="WATTAGE"  value="3/4W"/>
+	</component>
+	<component cell="r_smt" library="r_resistor" partname="R_SMT_2010" partno="10006176" quantity="1" >
+		<property name="JEDEC_TYPE"  value="RESC-2010_W"/>
+		<property name="PART_NAME"  value="R_SMT_2010"/>
+		<property name="PART_NUMBER"  value="10006176"/>
+		<property name="TOL"  value="5%"/>
+		<property name="TYPE"  value="TF-SMT2010"/>
+		<property name="VALUE"  value="6.8K"/>
+		<property name="WATTAGE"  value="3/4W"/>
+	</component>
+	<component cell="j_3_st" library="j_connector2fjumper" partname="J_3_ST_AMP_641215" partno="10017175" quantity="1" >
+		<property name="JEDEC_TYPE"  value="CONN-AMP-3PIN-100MIL-ST"/>
+		<property name="PART_NAME"  value="J_3_ST_AMP_641215"/>
+		<property name="PART_NUMBER"  value="10017175"/>
+		<property name="VALUE"  value="641215-3"/>
+	</component>
+	<component cell="r_th_carbon" library="r_resistor" partname="R_TH_CARBON_1_4W" partno="10013804" quantity="1" >
+		<property name="JEDEC_TYPE"  value="RES_12P5_3D_0P9H"/>
+		<property name="PART_NAME"  value="R_TH_CARBON_1_4W"/>
+		<property name="PART_NUMBER"  value="10013804"/>
+		<property name="TOL"  value="5%"/>
+		<property name="TYPE"  value="Carbon"/>
+		<property name="VALUE"  value="47K"/>
+		<property name="WATTAGE"  value="1/4W"/>
+	</component>
+	<component cell="r_smt" library="r_resistor" partname="R_SMT_2010" partno="10006188" quantity="1" >
+		<property name="JEDEC_TYPE"  value="RESC-2010_W"/>
+		<property name="PART_NAME"  value="R_SMT_2010"/>
+		<property name="PART_NUMBER"  value="10006188"/>
+		<property name="TOL"  value="5%"/>
+		<property name="TYPE"  value="TF-SMT2010"/>
+		<property name="VALUE"  value="22K"/>
+		<property name="WATTAGE"  value="3/4W"/>
+	</component>
+	<component cell="r_smt" library="r_resistor" partname="R_SMT_2010" partno="10006204" quantity="1" >
+		<property name="JEDEC_TYPE"  value="RESC-2010_W"/>
+		<property name="PART_NAME"  value="R_SMT_2010"/>
+		<property name="PART_NUMBER"  value="10006204"/>
+		<property name="TOL"  value="5%"/>
+		<property name="TYPE"  value="TF-SMT2010"/>
+		<property name="VALUE"  value="100K"/>
+		<property name="WATTAGE"  value="3/4W"/>
+	</component>
+</sc:shoppingCart>

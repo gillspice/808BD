@@ -1,0 +1,306 @@
+\t (00:02:22) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (00:02:22)     Journal start - Sat Jun 08 07:29:23 2013
+\t (00:02:22)         Host=APL-JQ3HXV1 User=214016586 Pid=3676 CPUs=4
+\t (00:02:22) 
+\t (00:02:35) Opening existing design...
+\i (00:02:41) fillin yes 
+\w (00:02:41) WARNING(SPMHDB-214): Allegro PCB Designer (was Performance L) opening an Allegro L design.
+\w (00:02:42) WARNING(SPMHDB-213): DRC set to "out of date". This product supports a different DRC set than last product used on drawing.
+\w (00:02:42) WARNING(SPMHOD-34): Design was last saved by lower capability product (Allegro L). DRC is set out-of-date, you may wish to update DRC to reflect current rules.
+\i (00:02:44) fillin confirm
+\d (00:02:44) Database opened: D:/Misc/Misc/808BD/worklib/808bd/physical/808bd24.brd
+\t (00:02:47) Grids are drawn 40.000, 40.000 apart for enhanced viewability.
+\i (00:02:47) trapsize 21360
+\i (00:02:47) trapsize 20946
+\i (00:02:47) trapsize 21431
+\i (00:02:48) trapsize 17538
+\i (00:02:48) trapsize 17538
+\i (00:02:49) generaledit 
+\i (00:02:57) artwork 
+\w (00:02:58) For raster artwork formats, artwork accuracy must be at least one greater than the database accuracy, up to the maximum accuracy allowed by the selected output format. Change Format Decimal places.
+\i (00:03:00) fillin confirm
+\i (00:03:01) setwindow form.film_control
+\i (00:03:01) FORM film_control film_control  
+\i (00:03:14) FORM film_control filmtree popup Add TOP 
+\i (00:03:15) fillin "menu_cancel"
+\i (00:03:17) FORM film_control filmtree popup Add ETCH/TOP TOP 
+\i (00:03:20) setwindow form.scl_browser
+\i (00:03:20) FORM scl_browser cancel  
+\i (00:03:23) setwindow form.film_control
+\i (00:03:23) FORM film_control load  
+\i (00:03:26) fillin "menu_cancel"
+\i (00:03:30) FORM film_control filmtree  BOTTOM 
+\i (00:03:32) FORM film_control filmtree popup Add TOP 
+\i (00:03:37) fillin "SILK"
+\i (00:04:12) FORM film_control ok  
+\i (00:04:13) setwindow pcb
+\i (00:04:13) generaledit 
+\i (00:04:19) plot setup 
+\i (00:04:21) setwindow form.fpfileplotsetup
+\i (00:04:21) FORM fpfileplotsetup cancel  
+\i (00:04:22) setwindow pcb
+\i (00:04:22) generaledit 
+\i (00:04:26) plot 
+\w (00:04:26) WARNING(SPMHMF-375): Holes will generally not appear in a 'Black and white' plot. [help]
+\i (00:04:47) artwork 
+\w (00:04:47) For raster artwork formats, artwork accuracy must be at least one greater than the database accuracy, up to the maximum accuracy allowed by the selected output format. Change Format Decimal places.
+\i (00:04:48) fillin confirm
+\i (00:04:49) setwindow form.film_control
+\i (00:04:49) FORM film_control film_control  
+\i (00:04:52) FORM film_control filmtree 'MULTISEL YES' SILK 
+\i (00:04:52) FORM film_control filmtree  SILK 
+\i (00:04:57) FORM film_control undefined_line_width 10.000 
+\i (00:05:01) FORM film_control create  
+\t (00:05:01) Starting Create artwork films...
+\w (00:05:06) WARNING(SPMHGE-269): artwork had warnings, use Viewlog to review the log file.
+\w (00:05:07) Artwork generated with warnings.
+\i (00:06:06) FORM film_control ok  
+\i (00:06:07) setwindow pcb
+\i (00:06:07) generaledit 
+\i (00:07:30) setwindow text
+\i (00:07:30) close 
+\i (00:07:33) setwindow pcb
+\i (00:07:33) artwork 
+\w (00:07:33) For raster artwork formats, artwork accuracy must be at least one greater than the database accuracy, up to the maximum accuracy allowed by the selected output format. Change Format Decimal places.
+\i (00:07:35) fillin confirm
+\i (00:07:35) setwindow form.film_control
+\i (00:07:35) FORM film_control film_control  
+\i (00:07:46) FORM film_control filmtree popup Cut 'DRC ERROR CLASS/TOP' SILK 
+\i (00:07:49) FORM film_control filmtree popup Cut MANUFACTURING/XSECTION_CHART SILK 
+\i (00:07:56) FORM film_control filmtree popup Cut 'PACKAGE GEOMETRY/PLACE_BOUND_BOTTOM' SILK 
+\i (00:08:07) FORM film_control filmtree 'MULTISEL YES' SILK 
+\i (00:08:07) FORM film_control filmtree  SILK 
+\i (00:08:08) FORM film_control create  
+\t (00:08:08) Starting Create artwork films...
+\w (00:08:12) WARNING(SPMHGE-269): artwork had warnings, use Viewlog to review the log file.
+\w (00:08:13) Artwork generated with warnings.
+\i (00:09:24) FORM film_control ok  
+\i (00:09:25) setwindow pcb
+\i (00:09:25) generaledit 
+\i (00:09:26) setwindow text
+\i (00:09:26) close 
+\i (00:09:32) setwindow form.vf_vis
+\i (00:09:32) FORM vf_vis 1 all_colorvisible YES 
+\i (00:09:33) FORM vf_vis 1 all_colorvisible NO 
+\i (00:09:35) FORM vf_vis 1 all_colorvisible YES 
+\i (00:09:36) FORM vf_vis 1 all_colorvisible NO 
+\i (00:09:38) setwindow pcb
+\i (00:09:38) color192 
+\i (00:09:38) setwindow cvf.dialog
+\i (00:09:38) cvf layer_mode
+\i (00:09:39) setwindow pcb
+\i (00:09:39) generaledit 
+\i (00:09:42) setwindow cvf.dialog
+\i (00:09:42) cvf layer_tree_item 'Package Geometry'
+\i (00:09:45) cvf layers_visible package_geometry/soldermask_bottom TRUE
+\i (00:09:46) cvf apply
+\i (00:09:47) cvf okay
+\i (00:09:59) setwindow pcb
+\i (00:09:59) color192 
+\i (00:09:59) setwindow cvf.dialog
+\i (00:09:59) cvf layer_mode
+\i (00:10:00) setwindow pcb
+\i (00:10:00) generaledit 
+\i (00:10:01) setwindow cvf.dialog
+\i (00:10:01) cvf layer_tree_item 'Package Geometry'
+\i (00:10:04) cvf layers_visible package_geometry/silkscreen_top FALSE
+\i (00:10:06) cvf layers_visible package_geometry/place_bound_bottom FALSE
+\i (00:10:07) cvf layer_tree_item 'Embedded Geomerty'
+\i (00:10:09) cvf layer_tree_item 'Components'
+\i (00:10:11) cvf layers_visible components ref_des/silkscreen_top FALSE
+\i (00:10:12) cvf layers_visible components ref_des/silkscreen_bottom TRUE
+\i (00:10:14) cvf apply
+\i (00:10:15) cvf okay
+\i (00:10:23) setwindow pcb
+\i (00:10:23) color192 
+\i (00:10:23) setwindow cvf.dialog
+\i (00:10:23) cvf layer_mode
+\i (00:10:23) setwindow pcb
+\i (00:10:23) generaledit 
+\i (00:10:27) setwindow cvf.dialog
+\i (00:10:27) cvf layer_tree_item 'Board Geometry'
+\i (00:10:29) cvf layer_tree_item 'Package Geometry'
+\i (00:10:31) cvf layer_tree_item 'Board Geometry'
+\i (00:10:33) cvf layers_visible board_geometry/silkscreen_top FALSE
+\i (00:10:34) cvf layers_visible board_geometry/silkscreen_bottom TRUE
+\i (00:10:35) cvf layer_tree_item 'Package Geometry'
+\i (00:10:39) cvf layer_tree_item 'Stack-Up'
+\i (00:10:44) cvf layer_tree_item 'Components'
+\i (00:10:44) cvf layer_tree_item 'Manufacturing'
+\i (00:10:46) cvf layers_visible manufacturing/xsection_chart FALSE
+\i (00:10:48) cvf layer_tree_item 'Components'
+\i (00:10:54) cvf apply
+\i (00:10:55) cvf okay
+\i (00:10:56) setwindow pcb
+\i (00:10:56) zoom in 1 
+\i (00:10:56) setwindow pcb
+\i (00:10:56) zoom in 16927.933 10772.003
+\i (00:10:56) trapsize 8769
+\i (00:10:57) zoom out 1 
+\i (00:10:57) setwindow pcb
+\i (00:10:57) zoom out 16927.933 10772.003
+\i (00:10:57) trapsize 17538
+\i (00:11:00) color192 
+\i (00:11:01) setwindow cvf.dialog
+\i (00:11:01) cvf layer_mode
+\i (00:11:01) setwindow pcb
+\i (00:11:01) generaledit 
+\i (00:11:04) setwindow cvf.dialog
+\i (00:11:04) cvf layer_tree_item 'Embedded Geomerty'
+\i (00:11:04) cvf layer_tree_item 'Package Geometry'
+\i (00:11:11) cvf layers_visible package_geometry/soldermask_bottom FALSE
+\i (00:11:11) cvf layers_visible package_geometry/silkscreen_bottom TRUE
+\i (00:11:13) cvf apply
+\i (00:11:14) cvf okay
+\i (00:11:20) setwindow pcb
+\i (00:11:20) flipdesign 
+\i (00:11:34) artwork 
+\w (00:11:34) For raster artwork formats, artwork accuracy must be at least one greater than the database accuracy, up to the maximum accuracy allowed by the selected output format. Change Format Decimal places.
+\i (00:11:36) fillin confirm
+\i (00:11:38) setwindow form.film_control
+\i (00:11:38) FORM film_control film_control  
+\i (00:11:44) FORM film_control filmtree popup Add TOP 
+\i (00:11:47) FORM film_control filmtree  BOTTOM 
+\i (00:11:47) fillin "silkb"
+\i (00:11:54) FORM film_control filmtree 'MULTISEL YES' silkb 
+\i (00:11:54) FORM film_control filmtree  silkb 
+\i (00:11:55) FORM film_control create  
+\t (00:11:55) Starting Create artwork films...
+\w (00:12:00) WARNING(SPMHGE-269): artwork had warnings, use Viewlog to review the log file.
+\w (00:12:01) Artwork generated with warnings.
+\i (10:42:17) setwindow pcb
+\i (10:42:17) xname_flush 
+\i (11:22:25) xname_flush 
+\i (30:32:56) zoom out 1 
+\i (30:32:56) setwindow pcb
+\i (30:32:56) zoom out 15240.752 11662.948
+\i (30:32:56) trapsize 35077
+\i (30:33:20) fillin no 
+\e (30:33:21) Do you want to save the changes you made to 808bd24.brd?
+\i (30:33:23) fillin menu_cancel 
+\i (30:33:23) generaledit 
+\i (30:33:24) zoom in 1 
+\i (30:33:24) setwindow pcb
+\i (30:33:24) zoom in 17618.940 10077.488
+\i (30:33:24) trapsize 17538
+\i (30:33:24) zoom in 1 
+\i (30:33:24) setwindow pcb
+\i (30:33:24) zoom in 17618.940 10077.488
+\i (30:33:24) trapsize 8769
+\i (30:33:24) zoom in 1 
+\i (30:33:24) setwindow pcb
+\i (30:33:24) zoom in 17620.694 10077.489
+\i (30:33:24) trapsize 4385
+\i (30:33:24) zoom out 1 
+\i (30:33:24) setwindow pcb
+\i (30:33:24) zoom out 17620.695 10073.104
+\i (30:33:24) trapsize 8769
+\i (30:33:25) zoom out 1 
+\i (30:33:25) setwindow pcb
+\i (30:33:25) zoom out 17645.248 10523.838
+\i (30:33:25) trapsize 17538
+\i (30:33:25) zoom out 1 
+\i (30:33:25) setwindow pcb
+\i (30:33:25) zoom out 17645.248 10523.839
+\i (30:33:25) trapsize 35077
+\i (30:33:25) zoom in 1 
+\i (30:33:25) setwindow pcb
+\i (30:33:25) zoom in 17687.340 10586.976
+\i (30:33:25) trapsize 17538
+\i (30:33:25) zoom out 1 
+\i (30:33:25) setwindow pcb
+\i (30:33:25) zoom out 17659.279 10727.283
+\i (30:33:25) trapsize 35077
+\i (30:33:26) zoom out 1 
+\i (30:33:26) setwindow pcb
+\i (30:33:26) zoom out 17659.278 10958.788
+\t (30:33:26) Grids are drawn 160.000, 160.000 apart for enhanced viewability.
+\i (30:33:26) trapsize 70153
+\i (30:33:26) zoom in 1 
+\i (30:33:26) setwindow pcb
+\i (30:33:26) zoom in 16223.207 11365.675
+\t (30:33:26) Grids are drawn 40.000, 40.000 apart for enhanced viewability.
+\i (30:33:26) trapsize 35077
+\i (30:33:27) roam start
+\i (30:33:27) roam x -32
+\i (30:33:27) roam y 112
+\i (30:33:27) roam x -32
+\i (30:33:27) roam y 112
+\i (30:33:27) roam y 64
+\i (30:33:27) roam end
+\i (30:33:28) roam start
+\i (30:33:28) roam y -64
+\i (30:33:28) roam x 16
+\i (30:33:28) roam y -368
+\i (30:33:28) roam x 16
+\i (30:33:28) roam y -160
+\i (30:33:28) roam y -112
+\i (30:33:28) roam x 16
+\i (30:33:28) roam y -80
+\i (30:33:28) roam y -32
+\i (30:33:29) roam x -32
+\i (30:33:29) roam y 96
+\i (30:33:29) roam x -16
+\i (30:33:29) roam y 64
+\i (30:33:29) roam x 32
+\i (30:33:29) roam x 32
+\i (30:33:29) roam y -16
+\i (30:33:29) roam x 64
+\i (30:33:29) roam y -32
+\i (30:33:29) roam x 16
+\i (30:33:29) roam y -16
+\i (30:33:29) roam end
+\i (30:33:29) zoom in 1 
+\i (30:33:29) setwindow pcb
+\i (30:33:29) zoom in 17650.518 10845.668
+\i (30:33:29) trapsize 17538
+\i (30:38:37) drag_start grid 17134.893 11592.799
+\i (49:05:00) fillin yes 
+\i (49:05:01) drag_stop
+\i (49:39:30) zoom out 1 
+\i (49:39:30) setwindow pcb
+\i (49:39:30) zoom out 17433.044 11175.388
+\i (49:39:30) trapsize 35077
+\i (49:39:31) setwindow text
+\i (49:39:31) close 
+\i (49:40:47) setwindow pcb
+\i (49:40:47) zoom in 1 
+\i (49:40:47) setwindow pcb
+\i (49:40:47) zoom in 17433.044 10600.132
+\i (49:40:47) trapsize 17538
+\i (49:40:50) zoom out 1 
+\i (49:40:50) setwindow pcb
+\i (49:40:50) zoom out 17369.906 10515.948
+\i (49:40:50) trapsize 35077
+\i (49:40:50) zoom in 1 
+\i (49:40:50) setwindow pcb
+\i (49:40:50) zoom in 16963.018 9842.479
+\i (49:40:50) trapsize 17538
+\i (49:42:09) plot preview 
+\i (49:42:09) trapsize 16934
+\i (49:42:09) trapsize 17538
+\i (49:42:15) plot setup 
+\i (49:42:18) setwindow form.fpfileplotsetup
+\i (49:42:18) FORM fpfileplotsetup windows  
+\i (49:42:19) FORM fpfileplotsetup general  
+\i (49:42:21) FORM fpfileplotsetup fpplotfittopage YES 
+\i (49:42:24) FORM fpfileplotsetup done  
+\i (49:42:24) setwindow pcb
+\i (49:42:24) generaledit 
+\i (49:42:28) plot setup 
+\i (49:42:30) setwindow form.fpfileplotsetup
+\i (49:42:30) FORM fpfileplotsetup done  
+\i (49:42:30) setwindow pcb
+\i (49:42:30) generaledit 
+\i (49:42:33) plot setup 
+\i (49:42:35) setwindow form.fpfileplotsetup
+\i (49:42:35) FORM fpfileplotsetup cancel  
+\i (49:42:35) setwindow pcb
+\i (49:42:35) generaledit 
+\i (49:42:37) plot 
+\w (49:42:37) WARNING(SPMHMF-375): Holes will generally not appear in a 'Black and white' plot. [help]
+\i (49:42:47) plotwint initialize "\\AP1PS03CIGE.amer.consind.ge.com\AP2_315_XX7346"
+\e (49:42:47) Program has encountered a problem and must exit. The design will be saved as a .SAV file that can be recovered using dbdoctor (if applicable). To resolve problem, first obtain the latest software update from Cadence and if the problem persists contact Cadence Customer Support. In addition to the data Cadence support requests; please provide the MiniDump files found in folder "D:/Misc/Misc/808BD/worklib/808bd/physical".
+\i (49:42:52) fillin confirm
+\e (49:43:02) Saving database as 'D:/Misc/Misc/808BD/worklib/808bd/physical/808bd24.SAV'.
+\t (49:43:02)     Journal end - Mon Jun 10 09:10:03 2013

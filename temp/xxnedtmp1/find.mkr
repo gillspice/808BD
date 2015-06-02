@@ -1,0 +1,1067 @@
+(marker_file
+ (version 1.0)
+ (markers
+  (
+   (tool "Concept")
+   (class "SCHEMATIC")
+   (severity 10)
+   (error_num 1)
+   (short_msg "INFO : Found an invisible property: <PART_NUMBER=10006228>.
+")
+   (long_msg "INFO (find): Found an invisible property: <PART_NUMBER=10006228>.
+")
+   (location
+    (
+     (object_kind "property")
+     (canonical_name "_!drawbox (-7850,5075);")
+     (parent_canonical_name "unused")
+     (drawing_name "@\808bd_lib\.\808bd\(sch_1):page1")
+    )
+   )
+  )
+  (
+   (tool "Concept")
+   (class "SCHEMATIC")
+   (severity 10)
+   (error_num 2)
+   (short_msg "INFO : Found an invisible property: <PART_NUMBER=10004947>.
+")
+   (long_msg "INFO (find): Found an invisible property: <PART_NUMBER=10004947>.
+")
+   (location
+    (
+     (object_kind "property")
+     (canonical_name "_!drawbox (-7525,3700);")
+     (parent_canonical_name "unused")
+     (drawing_name "@\808bd_lib\.\808bd\(sch_1):page1")
+    )
+   )
+  )
+  (
+   (tool "Concept")
+   (class "SCHEMATIC")
+   (severity 10)
+   (error_num 3)
+   (short_msg "INFO : Found an invisible property: <PART_NUMBER=10006514>.
+")
+   (long_msg "INFO (find): Found an invisible property: <PART_NUMBER=10006514>.
+")
+   (location
+    (
+     (object_kind "property")
+     (canonical_name "_!drawbox (-2625,4875);")
+     (parent_canonical_name "unused")
+     (drawing_name "@\808bd_lib\.\808bd\(sch_1):page1")
+    )
+   )
+  )
+  (
+   (tool "Concept")
+   (class "SCHEMATIC")
+   (severity 10)
+   (error_num 4)
+   (short_msg "INFO : Found an invisible property: <PART_NUMBER=10006514>.
+")
+   (long_msg "INFO (find): Found an invisible property: <PART_NUMBER=10006514>.
+")
+   (location
+    (
+     (object_kind "property")
+     (canonical_name "_!drawbox (-2875,3850);")
+     (parent_canonical_name "unused")
+     (drawing_name "@\808bd_lib\.\808bd\(sch_1):page1")
+    )
+   )
+  )
+  (
+   (tool "Concept")
+   (class "SCHEMATIC")
+   (severity 10)
+   (error_num 5)
+   (short_msg "INFO : Found an invisible property: <PART_NUMBER=10002975>.
+")
+   (long_msg "INFO (find): Found an invisible property: <PART_NUMBER=10002975>.
+")
+   (location
+    (
+     (object_kind "property")
+     (canonical_name "_!drawbox (-2100,4750);")
+     (parent_canonical_name "unused")
+     (drawing_name "@\808bd_lib\.\808bd\(sch_1):page1")
+    )
+   )
+  )
+  (
+   (tool "Concept")
+   (class "SCHEMATIC")
+   (severity 10)
+   (error_num 6)
+   (short_msg "INFO : Found an invisible property: <PART_NUMBER=10000726>.
+")
+   (long_msg "INFO (find): Found an invisible property: <PART_NUMBER=10000726>.
+")
+   (location
+    (
+     (object_kind "property")
+     (canonical_name "_!drawbox (-1925,3925);")
+     (parent_canonical_name "unused")
+     (drawing_name "@\808bd_lib\.\808bd\(sch_1):page1")
+    )
+   )
+  )
+  (
+   (tool "Concept")
+   (class "SCHEMATIC")
+   (severity 10)
+   (error_num 7)
+   (short_msg "INFO : Found an invisible property: <PART_NUMBER=10005453>.
+")
+   (long_msg "INFO (find): Found an invisible property: <PART_NUMBER=10005453>.
+")
+   (location
+    (
+     (object_kind "property")
+     (canonical_name "_!drawbox (-2300,4250);")
+     (parent_canonical_name "unused")
+     (drawing_name "@\808bd_lib\.\808bd\(sch_1):page1")
+    )
+   )
+  )
+  (
+   (tool "Concept")
+   (class "SCHEMATIC")
+   (severity 10)
+   (error_num 8)
+   (short_msg "INFO : Found an invisible property: <PART_NUMBER=10006514>.
+")
+   (long_msg "INFO (find): Found an invisible property: <PART_NUMBER=10006514>.
+")
+   (location
+    (
+     (object_kind "property")
+     (canonical_name "_!drawbox (-8575,3825);")
+     (parent_canonical_name "unused")
+     (drawing_name "@\808bd_lib\.\808bd\(sch_1):page1")
+    )
+   )
+  )
+  (
+   (tool "Concept")
+   (class "SCHEMATIC")
+   (severity 10)
+   (error_num 9)
+   (short_msg "INFO : Found an invisible property: <PART_NUMBER=10005453>.
+")
+   (long_msg "INFO (find): Found an invisible property: <PART_NUMBER=10005453>.
+")
+   (location
+    (
+     (object_kind "property")
+     (canonical_name "_!drawbox (-6625,4975);")
+     (parent_canonical_name "unused")
+     (drawing_name "@\808bd_lib\.\808bd\(sch_1):page1")
+    )
+   )
+  )
+  (
+   (tool "Concept")
+   (class "SCHEMATIC")
+   (severity 10)
+   (error_num 10)
+   (short_msg "INFO : Found an invisible property: <PART_NUMBER=10002982>.
+")
+   (long_msg "INFO (find): Found an invisible property: <PART_NUMBER=10002982>.
+")
+   (location
+    (
+     (object_kind "property")
+     (canonical_name "_!drawbox (-3325,4200);")
+     (parent_canonical_name "unused")
+     (drawing_name "@\808bd_lib\.\808bd\(sch_1):page1")
+    )
+   )
+  )
+  (
+   (tool "Concept")
+   (class "SCHEMATIC")
+   (severity 10)
+   (error_num 11)
+   (short_msg "INFO : Found an invisible property: <PART_NUMBER=10002982>.
+")
+   (long_msg "INFO (find): Found an invisible property: <PART_NUMBER=10002982>.
+")
+   (location
+    (
+     (object_kind "property")
+     (canonical_name "_!drawbox (-3900,4450);")
+     (parent_canonical_name "unused")
+     (drawing_name "@\808bd_lib\.\808bd\(sch_1):page1")
+    )
+   )
+  )
+  (
+   (tool "Concept")
+   (class "SCHEMATIC")
+   (severity 10)
+   (error_num 12)
+   (short_msg "INFO : Found an invisible property: <PART_NUMBER=10013689>.
+")
+   (long_msg "INFO (find): Found an invisible property: <PART_NUMBER=10013689>.
+")
+   (location
+    (
+     (object_kind "property")
+     (canonical_name "_!drawbox (-3550,4300);")
+     (parent_canonical_name "unused")
+     (drawing_name "@\808bd_lib\.\808bd\(sch_1):page1")
+    )
+   )
+  )
+  (
+   (tool "Concept")
+   (class "SCHEMATIC")
+   (severity 10)
+   (error_num 13)
+   (short_msg "INFO : Found an invisible property: <PART_NUMBER=10013689>.
+")
+   (long_msg "INFO (find): Found an invisible property: <PART_NUMBER=10013689>.
+")
+   (location
+    (
+     (object_kind "property")
+     (canonical_name "_!drawbox (-5300,5125);")
+     (parent_canonical_name "unused")
+     (drawing_name "@\808bd_lib\.\808bd\(sch_1):page1")
+    )
+   )
+  )
+  (
+   (tool "Concept")
+   (class "SCHEMATIC")
+   (severity 10)
+   (error_num 14)
+   (short_msg "INFO : Found an invisible property: <PART_NUMBER=10002898>.
+")
+   (long_msg "INFO (find): Found an invisible property: <PART_NUMBER=10002898>.
+")
+   (location
+    (
+     (object_kind "property")
+     (canonical_name "_!drawbox (-3575,5700);")
+     (parent_canonical_name "unused")
+     (drawing_name "@\808bd_lib\.\808bd\(sch_1):page1")
+    )
+   )
+  )
+  (
+   (tool "Concept")
+   (class "SCHEMATIC")
+   (severity 10)
+   (error_num 15)
+   (short_msg "INFO : Found an invisible property: <PART_NUMBER=10013689>.
+")
+   (long_msg "INFO (find): Found an invisible property: <PART_NUMBER=10013689>.
+")
+   (location
+    (
+     (object_kind "property")
+     (canonical_name "_!drawbox (-3950,5625);")
+     (parent_canonical_name "unused")
+     (drawing_name "@\808bd_lib\.\808bd\(sch_1):page1")
+    )
+   )
+  )
+  (
+   (tool "Concept")
+   (class "SCHEMATIC")
+   (severity 10)
+   (error_num 16)
+   (short_msg "INFO : Found an invisible property: <PART_NUMBER=10013689>.
+")
+   (long_msg "INFO (find): Found an invisible property: <PART_NUMBER=10013689>.
+")
+   (location
+    (
+     (object_kind "property")
+     (canonical_name "_!drawbox (-4275,4875);")
+     (parent_canonical_name "unused")
+     (drawing_name "@\808bd_lib\.\808bd\(sch_1):page1")
+    )
+   )
+  )
+  (
+   (tool "Concept")
+   (class "SCHEMATIC")
+   (severity 10)
+   (error_num 17)
+   (short_msg "INFO : Found an invisible property: <PART_NUMBER=10006450>.
+")
+   (long_msg "INFO (find): Found an invisible property: <PART_NUMBER=10006450>.
+")
+   (location
+    (
+     (object_kind "property")
+     (canonical_name "_!drawbox (-4575,5050);")
+     (parent_canonical_name "unused")
+     (drawing_name "@\808bd_lib\.\808bd\(sch_1):page1")
+    )
+   )
+  )
+  (
+   (tool "Concept")
+   (class "SCHEMATIC")
+   (severity 10)
+   (error_num 18)
+   (short_msg "INFO : Found an invisible property: <PART_NUMBER=10019370>.
+")
+   (long_msg "INFO (find): Found an invisible property: <PART_NUMBER=10019370>.
+")
+   (location
+    (
+     (object_kind "property")
+     (canonical_name "_!drawbox (-5725,3175);")
+     (parent_canonical_name "unused")
+     (drawing_name "@\808bd_lib\.\808bd\(sch_1):page1")
+    )
+   )
+  )
+  (
+   (tool "Concept")
+   (class "SCHEMATIC")
+   (severity 10)
+   (error_num 19)
+   (short_msg "INFO : Found an invisible property: <PART_NUMBER=10006538>.
+")
+   (long_msg "INFO (find): Found an invisible property: <PART_NUMBER=10006538>.
+")
+   (location
+    (
+     (object_kind "property")
+     (canonical_name "_!drawbox (-5400,4375);")
+     (parent_canonical_name "unused")
+     (drawing_name "@\808bd_lib\.\808bd\(sch_1):page1")
+    )
+   )
+  )
+  (
+   (tool "Concept")
+   (class "SCHEMATIC")
+   (severity 10)
+   (error_num 20)
+   (short_msg "INFO : Found an invisible property: <PART_NUMBER=10006498>.
+")
+   (long_msg "INFO (find): Found an invisible property: <PART_NUMBER=10006498>.
+")
+   (location
+    (
+     (object_kind "property")
+     (canonical_name "_!drawbox (-5325,4700);")
+     (parent_canonical_name "unused")
+     (drawing_name "@\808bd_lib\.\808bd\(sch_1):page1")
+    )
+   )
+  )
+  (
+   (tool "Concept")
+   (class "SCHEMATIC")
+   (severity 10)
+   (error_num 21)
+   (short_msg "INFO : Found an invisible property: <PART_NUMBER=10006498>.
+")
+   (long_msg "INFO (find): Found an invisible property: <PART_NUMBER=10006498>.
+")
+   (location
+    (
+     (object_kind "property")
+     (canonical_name "_!drawbox (-6875,5300);")
+     (parent_canonical_name "unused")
+     (drawing_name "@\808bd_lib\.\808bd\(sch_1):page1")
+    )
+   )
+  )
+  (
+   (tool "Concept")
+   (class "SCHEMATIC")
+   (severity 10)
+   (error_num 22)
+   (short_msg "INFO : Found an invisible property: <PART_NUMBER=10004947>.
+")
+   (long_msg "INFO (find): Found an invisible property: <PART_NUMBER=10004947>.
+")
+   (location
+    (
+     (object_kind "property")
+     (canonical_name "_!drawbox (-6225,5450);")
+     (parent_canonical_name "unused")
+     (drawing_name "@\808bd_lib\.\808bd\(sch_1):page1")
+    )
+   )
+  )
+  (
+   (tool "Concept")
+   (class "SCHEMATIC")
+   (severity 10)
+   (error_num 23)
+   (short_msg "INFO : Found an invisible property: <PART_NUMBER=10006538>.
+")
+   (long_msg "INFO (find): Found an invisible property: <PART_NUMBER=10006538>.
+")
+   (location
+    (
+     (object_kind "property")
+     (canonical_name "_!drawbox (-5625,5700);")
+     (parent_canonical_name "unused")
+     (drawing_name "@\808bd_lib\.\808bd\(sch_1):page1")
+    )
+   )
+  )
+  (
+   (tool "Concept")
+   (class "SCHEMATIC")
+   (severity 10)
+   (error_num 24)
+   (short_msg "INFO : Found an invisible property: <PART_NUMBER=10006514>.
+")
+   (long_msg "INFO (find): Found an invisible property: <PART_NUMBER=10006514>.
+")
+   (location
+    (
+     (object_kind "property")
+     (canonical_name "_!drawbox (-6275,4900);")
+     (parent_canonical_name "unused")
+     (drawing_name "@\808bd_lib\.\808bd\(sch_1):page1")
+    )
+   )
+  )
+  (
+   (tool "Concept")
+   (class "SCHEMATIC")
+   (severity 10)
+   (error_num 25)
+   (short_msg "INFO : Found an invisible property: <PART_NUMBER=10005453>.
+")
+   (long_msg "INFO (find): Found an invisible property: <PART_NUMBER=10005453>.
+")
+   (location
+    (
+     (object_kind "property")
+     (canonical_name "_!drawbox (-5525,4875);")
+     (parent_canonical_name "unused")
+     (drawing_name "@\808bd_lib\.\808bd\(sch_1):page1")
+    )
+   )
+  )
+  (
+   (tool "Concept")
+   (class "SCHEMATIC")
+   (severity 10)
+   (error_num 26)
+   (short_msg "INFO : Found an invisible property: <PART_NUMBER=10006530>.
+")
+   (long_msg "INFO (find): Found an invisible property: <PART_NUMBER=10006530>.
+")
+   (location
+    (
+     (object_kind "property")
+     (canonical_name "_!drawbox (-5025,5700);")
+     (parent_canonical_name "unused")
+     (drawing_name "@\808bd_lib\.\808bd\(sch_1):page1")
+    )
+   )
+  )
+  (
+   (tool "Concept")
+   (class "SCHEMATIC")
+   (severity 10)
+   (error_num 27)
+   (short_msg "INFO : Found an invisible property: <PART_NUMBER=10000435>.
+")
+   (long_msg "INFO (find): Found an invisible property: <PART_NUMBER=10000435>.
+")
+   (location
+    (
+     (object_kind "property")
+     (canonical_name "_!drawbox (-5325,5400);")
+     (parent_canonical_name "unused")
+     (drawing_name "@\808bd_lib\.\808bd\(sch_1):page1")
+    )
+   )
+  )
+  (
+   (tool "Concept")
+   (class "SCHEMATIC")
+   (severity 10)
+   (error_num 28)
+   (short_msg "INFO : Found an invisible property: <PART_NUMBER=10000435>.
+")
+   (long_msg "INFO (find): Found an invisible property: <PART_NUMBER=10000435>.
+")
+   (location
+    (
+     (object_kind "property")
+     (canonical_name "_!drawbox (-5800,5400);")
+     (parent_canonical_name "unused")
+     (drawing_name "@\808bd_lib\.\808bd\(sch_1):page1")
+    )
+   )
+  )
+  (
+   (tool "Concept")
+   (class "SCHEMATIC")
+   (severity 10)
+   (error_num 29)
+   (short_msg "INFO : Found an invisible property: <PART_NUMBER=10000439>.
+")
+   (long_msg "INFO (find): Found an invisible property: <PART_NUMBER=10000439>.
+")
+   (location
+    (
+     (object_kind "property")
+     (canonical_name "_!drawbox (-6475,5650);")
+     (parent_canonical_name "unused")
+     (drawing_name "@\808bd_lib\.\808bd\(sch_1):page1")
+    )
+   )
+  )
+  (
+   (tool "Concept")
+   (class "SCHEMATIC")
+   (severity 10)
+   (error_num 30)
+   (short_msg "INFO : Found an invisible property: <PART_NUMBER=10005453>.
+")
+   (long_msg "INFO (find): Found an invisible property: <PART_NUMBER=10005453>.
+")
+   (location
+    (
+     (object_kind "property")
+     (canonical_name "_!drawbox (-7600,4700);")
+     (parent_canonical_name "unused")
+     (drawing_name "@\808bd_lib\.\808bd\(sch_1):page1")
+    )
+   )
+  )
+  (
+   (tool "Concept")
+   (class "SCHEMATIC")
+   (severity 10)
+   (error_num 31)
+   (short_msg "INFO : Found an invisible property: <PART_NUMBER=10006488>.
+")
+   (long_msg "INFO (find): Found an invisible property: <PART_NUMBER=10006488>.
+")
+   (location
+    (
+     (object_kind "property")
+     (canonical_name "_!drawbox (-8225,4725);")
+     (parent_canonical_name "unused")
+     (drawing_name "@\808bd_lib\.\808bd\(sch_1):page1")
+    )
+   )
+  )
+  (
+   (tool "Concept")
+   (class "SCHEMATIC")
+   (severity 10)
+   (error_num 32)
+   (short_msg "INFO : Found an invisible property: <PART_NUMBER=10006476>.
+")
+   (long_msg "INFO (find): Found an invisible property: <PART_NUMBER=10006476>.
+")
+   (location
+    (
+     (object_kind "property")
+     (canonical_name "_!drawbox (-8125,4300);")
+     (parent_canonical_name "unused")
+     (drawing_name "@\808bd_lib\.\808bd\(sch_1):page1")
+    )
+   )
+  )
+  (
+   (tool "Concept")
+   (class "SCHEMATIC")
+   (severity 10)
+   (error_num 33)
+   (short_msg "INFO : Found an invisible property: <PART_NUMBER=10005646>.
+")
+   (long_msg "INFO (find): Found an invisible property: <PART_NUMBER=10005646>.
+")
+   (location
+    (
+     (object_kind "property")
+     (canonical_name "_!drawbox (-9000,4075);")
+     (parent_canonical_name "unused")
+     (drawing_name "@\808bd_lib\.\808bd\(sch_1):page1")
+    )
+   )
+  )
+  (
+   (tool "Concept")
+   (class "SCHEMATIC")
+   (severity 10)
+   (error_num 34)
+   (short_msg "INFO : Found an invisible property: <PART_NUMBER=10000435>.
+")
+   (long_msg "INFO (find): Found an invisible property: <PART_NUMBER=10000435>.
+")
+   (location
+    (
+     (object_kind "property")
+     (canonical_name "_!drawbox (-8650,4075);")
+     (parent_canonical_name "unused")
+     (drawing_name "@\808bd_lib\.\808bd\(sch_1):page1")
+    )
+   )
+  )
+  (
+   (tool "Concept")
+   (class "SCHEMATIC")
+   (severity 10)
+   (error_num 35)
+   (short_msg "INFO : Found an invisible property: <PART_NUMBER=10006482>.
+")
+   (long_msg "INFO (find): Found an invisible property: <PART_NUMBER=10006482>.
+")
+   (location
+    (
+     (object_kind "property")
+     (canonical_name "_!drawbox (-8025,3525);")
+     (parent_canonical_name "unused")
+     (drawing_name "@\808bd_lib\.\808bd\(sch_1):page1")
+    )
+   )
+  )
+  (
+   (tool "Concept")
+   (class "SCHEMATIC")
+   (severity 10)
+   (error_num 36)
+   (short_msg "INFO : Found an invisible property: <PART_NUMBER=10006482>.
+")
+   (long_msg "INFO (find): Found an invisible property: <PART_NUMBER=10006482>.
+")
+   (location
+    (
+     (object_kind "property")
+     (canonical_name "_!drawbox (-9650,4525);")
+     (parent_canonical_name "unused")
+     (drawing_name "@\808bd_lib\.\808bd\(sch_1):page1")
+    )
+   )
+  )
+  (
+   (tool "Concept")
+   (class "SCHEMATIC")
+   (severity 10)
+   (error_num 37)
+   (short_msg "INFO : Found an invisible property: <PART_NUMBER=10005453>.
+")
+   (long_msg "INFO (find): Found an invisible property: <PART_NUMBER=10005453>.
+")
+   (location
+    (
+     (object_kind "property")
+     (canonical_name "_!drawbox (-9400,3425);")
+     (parent_canonical_name "unused")
+     (drawing_name "@\808bd_lib\.\808bd\(sch_1):page1")
+    )
+   )
+  )
+  (
+   (tool "Concept")
+   (class "SCHEMATIC")
+   (severity 10)
+   (error_num 38)
+   (short_msg "INFO : Found an invisible property: <PART_NUMBER=10006490>.
+")
+   (long_msg "INFO (find): Found an invisible property: <PART_NUMBER=10006490>.
+")
+   (location
+    (
+     (object_kind "property")
+     (canonical_name "_!drawbox (-10050,3000);")
+     (parent_canonical_name "unused")
+     (drawing_name "@\808bd_lib\.\808bd\(sch_1):page1")
+    )
+   )
+  )
+  (
+   (tool "Concept")
+   (class "SCHEMATIC")
+   (severity 10)
+   (error_num 39)
+   (short_msg "INFO : Found an invisible property: <PART_NUMBER=10006486>.
+")
+   (long_msg "INFO (find): Found an invisible property: <PART_NUMBER=10006486>.
+")
+   (location
+    (
+     (object_kind "property")
+     (canonical_name "_!drawbox (-5525,5275);")
+     (parent_canonical_name "unused")
+     (drawing_name "@\808bd_lib\.\808bd\(sch_1):page1")
+    )
+   )
+  )
+  (
+   (tool "Concept")
+   (class "SCHEMATIC")
+   (severity 10)
+   (error_num 40)
+   (short_msg "INFO : Found an invisible property: <PART_NUMBER=10006490>.
+")
+   (long_msg "INFO (find): Found an invisible property: <PART_NUMBER=10006490>.
+")
+   (location
+    (
+     (object_kind "property")
+     (canonical_name "_!drawbox (-9650,3850);")
+     (parent_canonical_name "unused")
+     (drawing_name "@\808bd_lib\.\808bd\(sch_1):page1")
+    )
+   )
+  )
+  (
+   (tool "Concept")
+   (class "SCHEMATIC")
+   (severity 10)
+   (error_num 41)
+   (short_msg "INFO : Found an invisible property: <PART_NUMBER=10000445>.
+")
+   (long_msg "INFO (find): Found an invisible property: <PART_NUMBER=10000445>.
+")
+   (location
+    (
+     (object_kind "property")
+     (canonical_name "_!drawbox (-7200,4675);")
+     (parent_canonical_name "unused")
+     (drawing_name "@\808bd_lib\.\808bd\(sch_1):page1")
+    )
+   )
+  )
+  (
+   (tool "Concept")
+   (class "SCHEMATIC")
+   (severity 10)
+   (error_num 42)
+   (short_msg "INFO : Found an invisible property: <PART_NUMBER=10006490>.
+")
+   (long_msg "INFO (find): Found an invisible property: <PART_NUMBER=10006490>.
+")
+   (location
+    (
+     (object_kind "property")
+     (canonical_name "_!drawbox (-4750,4700);")
+     (parent_canonical_name "unused")
+     (drawing_name "@\808bd_lib\.\808bd\(sch_1):page1")
+    )
+   )
+  )
+  (
+   (tool "Concept")
+   (class "SCHEMATIC")
+   (severity 10)
+   (error_num 43)
+   (short_msg "INFO : Found an invisible property: <PART_NUMBER=10000445>.
+")
+   (long_msg "INFO (find): Found an invisible property: <PART_NUMBER=10000445>.
+")
+   (location
+    (
+     (object_kind "property")
+     (canonical_name "_!drawbox (-4350,4375);")
+     (parent_canonical_name "unused")
+     (drawing_name "@\808bd_lib\.\808bd\(sch_1):page1")
+    )
+   )
+  )
+  (
+   (tool "Concept")
+   (class "SCHEMATIC")
+   (severity 10)
+   (error_num 44)
+   (short_msg "INFO : Found an invisible property: <PART_NUMBER=10019370>.
+")
+   (long_msg "INFO (find): Found an invisible property: <PART_NUMBER=10019370>.
+")
+   (location
+    (
+     (object_kind "property")
+     (canonical_name "_!drawbox (-5425,4025);")
+     (parent_canonical_name "unused")
+     (drawing_name "@\808bd_lib\.\808bd\(sch_1):page1")
+    )
+   )
+  )
+  (
+   (tool "Concept")
+   (class "SCHEMATIC")
+   (severity 10)
+   (error_num 45)
+   (short_msg "INFO : Found an invisible property: <PART_NUMBER=10019370>.
+")
+   (long_msg "INFO (find): Found an invisible property: <PART_NUMBER=10019370>.
+")
+   (location
+    (
+     (object_kind "property")
+     (canonical_name "_!drawbox (-3700,5250);")
+     (parent_canonical_name "unused")
+     (drawing_name "@\808bd_lib\.\808bd\(sch_1):page1")
+    )
+   )
+  )
+  (
+   (tool "Concept")
+   (class "SCHEMATIC")
+   (severity 10)
+   (error_num 46)
+   (short_msg "INFO : Found an invisible property: <PART_NUMBER=10006506>.
+")
+   (long_msg "INFO (find): Found an invisible property: <PART_NUMBER=10006506>.
+")
+   (location
+    (
+     (object_kind "property")
+     (canonical_name "_!drawbox (-4175,5450);")
+     (parent_canonical_name "unused")
+     (drawing_name "@\808bd_lib\.\808bd\(sch_1):page1")
+    )
+   )
+  )
+  (
+   (tool "Concept")
+   (class "SCHEMATIC")
+   (severity 10)
+   (error_num 47)
+   (short_msg "INFO : Found an invisible property: <PART_NUMBER=10006506>.
+")
+   (long_msg "INFO (find): Found an invisible property: <PART_NUMBER=10006506>.
+")
+   (location
+    (
+     (object_kind "property")
+     (canonical_name "_!drawbox (-3650,5450);")
+     (parent_canonical_name "unused")
+     (drawing_name "@\808bd_lib\.\808bd\(sch_1):page1")
+    )
+   )
+  )
+  (
+   (tool "Concept")
+   (class "SCHEMATIC")
+   (severity 10)
+   (error_num 48)
+   (short_msg "INFO : Found an invisible property: <PART_NUMBER=10006498>.
+")
+   (long_msg "INFO (find): Found an invisible property: <PART_NUMBER=10006498>.
+")
+   (location
+    (
+     (object_kind "property")
+     (canonical_name "_!drawbox (-10050,3675);")
+     (parent_canonical_name "unused")
+     (drawing_name "@\808bd_lib\.\808bd\(sch_1):page1")
+    )
+   )
+  )
+  (
+   (tool "Concept")
+   (class "SCHEMATIC")
+   (severity 10)
+   (error_num 49)
+   (short_msg "INFO : Found an invisible property: <PART_NUMBER=10006498>.
+")
+   (long_msg "INFO (find): Found an invisible property: <PART_NUMBER=10006498>.
+")
+   (location
+    (
+     (object_kind "property")
+     (canonical_name "_!drawbox (-4075,4900);")
+     (parent_canonical_name "unused")
+     (drawing_name "@\808bd_lib\.\808bd\(sch_1):page1")
+    )
+   )
+  )
+  (
+   (tool "Concept")
+   (class "SCHEMATIC")
+   (severity 10)
+   (error_num 50)
+   (short_msg "INFO : Found an invisible property: <PART_NUMBER=10017071>.
+")
+   (long_msg "INFO (find): Found an invisible property: <PART_NUMBER=10017071>.
+")
+   (location
+    (
+     (object_kind "property")
+     (canonical_name "_!drawbox (-1350,5975);")
+     (parent_canonical_name "unused")
+     (drawing_name "@\808bd_lib\.\808bd\(sch_1):page1")
+    )
+   )
+  )
+  (
+   (tool "Concept")
+   (class "SCHEMATIC")
+   (severity 10)
+   (error_num 51)
+   (short_msg "INFO : Found an invisible property: <PART_NUMBER=10006466>.
+")
+   (long_msg "INFO (find): Found an invisible property: <PART_NUMBER=10006466>.
+")
+   (location
+    (
+     (object_kind "property")
+     (canonical_name "_!drawbox (-2150,5725);")
+     (parent_canonical_name "unused")
+     (drawing_name "@\808bd_lib\.\808bd\(sch_1):page1")
+    )
+   )
+  )
+  (
+   (tool "Concept")
+   (class "SCHEMATIC")
+   (severity 10)
+   (error_num 52)
+   (short_msg "INFO : Found an invisible property: <PART_NUMBER=10017071>.
+")
+   (long_msg "INFO (find): Found an invisible property: <PART_NUMBER=10017071>.
+")
+   (location
+    (
+     (object_kind "property")
+     (canonical_name "_!drawbox (-10450,5000);")
+     (parent_canonical_name "unused")
+     (drawing_name "@\808bd_lib\.\808bd\(sch_1):page1")
+    )
+   )
+  )
+  (
+   (tool "Concept")
+   (class "SCHEMATIC")
+   (severity 10)
+   (error_num 53)
+   (short_msg "INFO : Found an invisible property: <PART_NUMBER=10006512>.
+")
+   (long_msg "INFO (find): Found an invisible property: <PART_NUMBER=10006512>.
+")
+   (location
+    (
+     (object_kind "property")
+     (canonical_name "_!drawbox (-2875,4275);")
+     (parent_canonical_name "unused")
+     (drawing_name "@\808bd_lib\.\808bd\(sch_1):page1")
+    )
+   )
+  )
+  (
+   (tool "Concept")
+   (class "SCHEMATIC")
+   (severity 10)
+   (error_num 54)
+   (short_msg "INFO : Found an invisible property: <PART_NUMBER=10006176>.
+")
+   (long_msg "INFO (find): Found an invisible property: <PART_NUMBER=10006176>.
+")
+   (location
+    (
+     (object_kind "property")
+     (canonical_name "_!drawbox (-2550,3750);")
+     (parent_canonical_name "unused")
+     (drawing_name "@\808bd_lib\.\808bd\(sch_1):page1")
+    )
+   )
+  )
+  (
+   (tool "Concept")
+   (class "SCHEMATIC")
+   (severity 10)
+   (error_num 55)
+   (short_msg "INFO : Found a visible property: <PART_NUMBER=10017175>.
+")
+   (long_msg "INFO (find): Found a visible property: <PART_NUMBER=10017175>.
+")
+   (location
+    (
+     (object_kind "property")
+     (canonical_name "_!drawbox (-4825,5250);")
+     (parent_canonical_name "unused")
+     (drawing_name "@\808bd_lib\.\808bd\(sch_1):page1")
+    )
+   )
+  )
+  (
+   (tool "Concept")
+   (class "SCHEMATIC")
+   (severity 10)
+   (error_num 56)
+   (short_msg "INFO : Found a visible property: <PART_NUMBER=10017175>.
+")
+   (long_msg "INFO (find): Found a visible property: <PART_NUMBER=10017175>.
+")
+   (location
+    (
+     (object_kind "property")
+     (canonical_name "_!drawbox (-3575,5000);")
+     (parent_canonical_name "unused")
+     (drawing_name "@\808bd_lib\.\808bd\(sch_1):page1")
+    )
+   )
+  )
+  (
+   (tool "Concept")
+   (class "SCHEMATIC")
+   (severity 10)
+   (error_num 57)
+   (short_msg "INFO : Found a visible property: <PART_NUMBER=10017175>.
+")
+   (long_msg "INFO (find): Found a visible property: <PART_NUMBER=10017175>.
+")
+   (location
+    (
+     (object_kind "property")
+     (canonical_name "_!drawbox (-4250,6125);")
+     (parent_canonical_name "unused")
+     (drawing_name "@\808bd_lib\.\808bd\(sch_1):page1")
+    )
+   )
+  )
+  (
+   (tool "Concept")
+   (class "SCHEMATIC")
+   (severity 10)
+   (error_num 58)
+   (short_msg "INFO : Found a visible property: <PART_NUMBER=10017175>.
+")
+   (long_msg "INFO (find): Found a visible property: <PART_NUMBER=10017175>.
+")
+   (location
+    (
+     (object_kind "property")
+     (canonical_name "_!drawbox (-3700,3925);")
+     (parent_canonical_name "unused")
+     (drawing_name "@\808bd_lib\.\808bd\(sch_1):page1")
+    )
+   )
+  )
+  (
+   (tool "Concept")
+   (class "SCHEMATIC")
+   (severity 10)
+   (error_num 59)
+   (short_msg "INFO : Found a visible property: <PART_NUMBER=10017170>.
+")
+   (long_msg "INFO (find): Found a visible property: <PART_NUMBER=10017170>.
+")
+   (location
+    (
+     (object_kind "property")
+     (canonical_name "_!drawbox (-4750,3325);")
+     (parent_canonical_name "unused")
+     (drawing_name "@\808bd_lib\.\808bd\(sch_1):page1")
+    )
+   )
+  )
+ )
+)

@@ -1,0 +1,2 @@
+DEFINE 808bd_lib worklib
+INCLUDE $CDS_SITE/cdssetup/cds.lib

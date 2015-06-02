@@ -1,0 +1,163 @@
+\t (00:00:08) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (00:00:08)     Journal start - Tue Jul 02 11:14:41 2013
+\t (00:00:08)         Host=APL-JQ3HXV1 User=214016586 Pid=8780 CPUs=4
+\t (00:00:08) 
+\t (00:00:10) Opening existing design...
+\i (00:00:13) fillin yes 
+\w (00:00:13) WARNING(SPMHDB-214): Allegro PCB Designer (was Performance L) opening an Allegro L design.
+\w (00:00:13) WARNING(SPMHDB-213): DRC set to "out of date". This product supports a different DRC set than last product used on drawing.
+\w (00:00:13) WARNING(SPMHOD-34): Design was last saved by lower capability product (Allegro L). DRC is set out-of-date, you may wish to update DRC to reflect current rules.
+\i (00:00:15) fillin confirm
+\d (00:00:15) Database opened: D:/Misc/Misc/808BD/worklib/808bd/physical/808bd24.brd
+\t (00:00:16) Grids are drawn 40.000, 40.000 apart for enhanced viewability.
+\i (00:00:16) trapsize 21360
+\i (00:00:16) trapsize 20946
+\i (00:00:16) trapsize 21431
+\i (00:00:16) trapsize 17876
+\i (00:00:16) trapsize 17876
+\i (00:00:17) generaledit 
+\i (00:00:18) zoom in 1 
+\i (00:00:18) setwindow pcb
+\i (00:00:18) zoom in 16561.968 10220.393
+\i (00:00:18) trapsize 8938
+\i (00:00:19) zoom out 1 
+\i (00:00:19) setwindow pcb
+\i (00:00:19) zoom out 16561.968 10220.393
+\i (00:00:19) trapsize 17876
+\i (00:00:26) zoom in 1 
+\i (00:00:26) setwindow pcb
+\i (00:00:26) zoom in 15560.886 10374.132
+\i (00:00:26) trapsize 8938
+\i (00:00:26) zoom out 1 
+\i (00:00:26) setwindow pcb
+\i (00:00:26) zoom out 15560.886 10374.132
+\i (00:00:26) trapsize 17876
+\i (00:00:29) show measure 
+\i (00:00:31) setwindow form.find
+\i (00:00:31) FORM find all_off  
+\i (00:00:31) FORM find pins YES 
+\i (00:00:33) setwindow pcb
+\i (00:00:33) zoom in 1 
+\i (00:00:33) setwindow pcb
+\i (00:00:33) zoom in 15560.886 10216.820
+\i (00:00:33) trapsize 8938
+\i (00:00:33) zoom in 1 
+\i (00:00:33) setwindow pcb
+\i (00:00:33) zoom in 15560.886 10216.820
+\i (00:00:33) trapsize 4469
+\i (00:00:33) zoom in 1 
+\i (00:00:33) setwindow pcb
+\i (00:00:33) zoom in 15560.887 10216.820
+\i (00:00:33) trapsize 2235
+\i (00:00:34) zoom out 1 
+\i (00:00:34) setwindow pcb
+\i (00:00:34) zoom out 15564.909 10236.037
+\i (00:00:34) trapsize 4469
+\i (00:00:35) pick grid 15567.591 10240.506
+\t (00:00:35) last pick:  15570.000  10240.000
+\i (00:00:36) zoom in 1 
+\i (00:00:36) setwindow pcb
+\i (00:00:36) zoom in 15581.892 10234.249
+\i (00:00:36) trapsize 2235
+\i (00:00:36) zoom in 1 
+\i (00:00:36) setwindow pcb
+\i (00:00:36) zoom in 15581.893 10234.249
+\i (00:00:36) trapsize 1117
+\i (00:00:36) zoom in 1 
+\i (00:00:36) setwindow pcb
+\i (00:00:36) zoom in 15581.893 10234.250
+\i (00:00:36) trapsize 559
+\i (00:00:36) zoom out 1 
+\i (00:00:36) setwindow pcb
+\i (00:00:36) zoom out 15586.585 10233.021
+\i (00:00:36) trapsize 1117
+\i (00:00:36) zoom out 1 
+\i (00:00:36) setwindow pcb
+\i (00:00:36) zoom out 15589.713 10234.139
+\i (00:00:36) trapsize 2235
+\i (00:00:36) zoom out 1 
+\i (00:00:36) setwindow pcb
+\i (00:00:36) zoom out 15589.713 10234.139
+\i (00:00:36) trapsize 4469
+\i (00:00:36) zoom out 1 
+\i (00:00:36) setwindow pcb
+\i (00:00:36) zoom out 15593.288 10235.033
+\i (00:00:36) trapsize 8938
+\i (00:00:36) zoom out 1 
+\i (00:00:36) setwindow pcb
+\i (00:00:36) zoom out 15625.464 10245.760
+\i (00:00:36) trapsize 17877
+\i (00:00:37) zoom out 1 
+\i (00:00:37) setwindow pcb
+\i (00:00:37) zoom out 16383.430 10231.458
+\i (00:00:37) trapsize 35753
+\i (00:00:37) zoom out 1 
+\i (00:00:37) setwindow pcb
+\i (00:00:37) zoom out 16533.592 10224.308
+\t (00:00:37) Grids are drawn 160.000, 160.000 apart for enhanced viewability.
+\i (00:00:37) trapsize 71506
+\i (00:00:37) zoom out 1 
+\i (00:00:37) setwindow pcb
+\i (00:00:37) zoom out 16547.893 10224.309
+\i (00:00:37) trapsize 140306
+\i (00:00:37) zoom in 1 
+\i (00:00:37) setwindow pcb
+\i (00:00:37) zoom in 17818.877 6313.775
+\i (00:00:37) trapsize 70153
+\i (00:00:37) zoom in 1 
+\i (00:00:37) setwindow pcb
+\i (00:00:37) zoom in 17443.878 6313.776
+\t (00:00:37) Grids are drawn 40.000, 40.000 apart for enhanced viewability.
+\i (00:00:37) trapsize 35077
+\i (00:00:37) zoom in 1 
+\i (00:00:37) setwindow pcb
+\i (00:00:37) zoom in 17436.863 6313.776
+\i (00:00:37) trapsize 17538
+\i (00:00:37) zoom out 1 
+\i (00:00:37) setwindow pcb
+\i (00:00:37) zoom out 16917.730 7555.485
+\i (00:00:37) trapsize 35077
+\i (00:00:38) zoom in 1 
+\i (00:00:38) setwindow pcb
+\i (00:00:38) zoom in 17177.297 8242.985
+\i (00:00:38) trapsize 17538
+\i (00:00:38) zoom out 1 
+\i (00:00:38) setwindow pcb
+\i (00:00:38) zoom out 17177.297 8242.985
+\i (00:00:38) trapsize 35077
+\i (00:00:38) zoom out 1 
+\i (00:00:38) setwindow pcb
+\i (00:00:38) zoom out 17177.298 8242.985
+\t (00:00:38) Grids are drawn 160.000, 160.000 apart for enhanced viewability.
+\i (00:00:38) trapsize 70153
+\i (00:00:38) zoom out 1 
+\i (00:00:38) setwindow pcb
+\i (00:00:38) zoom out 15872.448 9498.725
+\i (00:00:38) trapsize 140306
+\i (00:00:39) zoom in 1 
+\i (00:00:39) setwindow pcb
+\i (00:00:39) zoom in 15966.837 10887.755
+\i (00:00:39) trapsize 70153
+\i (00:00:39) zoom in 1 
+\i (00:00:39) setwindow pcb
+\i (00:00:39) zoom in 15952.807 10817.602
+\t (00:00:39) Grids are drawn 40.000, 40.000 apart for enhanced viewability.
+\i (00:00:39) trapsize 35077
+\i (00:00:39) zoom in 1 
+\i (00:00:39) setwindow pcb
+\i (00:00:39) zoom in 15980.868 10747.449
+\i (00:00:39) trapsize 17538
+\i (00:00:39) zoom in 1 
+\i (00:00:39) setwindow pcb
+\i (00:00:39) zoom in 16008.930 10340.562
+\i (00:00:39) trapsize 8769
+\i (00:00:39) zoom in 1 
+\i (00:00:39) setwindow pcb
+\i (00:00:39) zoom in 16077.330 10326.532
+\i (00:00:39) trapsize 4385
+\i (00:00:41) pick grid 16688.539 10238.841
+\t (00:00:41) last pick:  16690.000  10240.000
+\i (02:15:38) exit 
+\e (02:15:39) Do you want to save the changes you made to 808bd24.brd?
+\i (02:15:41) fillin no 
+\t (02:15:42)     Journal end - Tue Jul 02 13:30:15 2013

@@ -1,0 +1,86 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    ARTWORK LOG                                                      )
+(                                                                     )
+(    Drawing          : 808bd24.brd                                   )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Sat Jun 08 07:38:59 2013                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+ ******************************************
+ WARNING: DRC OUT OF DATE on this layout.
+ ******************************************
+
+ ---- Photoplot outline rectangle not found ... using drawing extents
+
+
+
+Results from parameter file ...
+    DEVICE-TYPE           GERBER_RS274X
+    OUTPUT-UNITS          INCHES
+    FILM-SIZE             24000 16000
+    FORMAT                5.3
+    ABORT-ON-ERROR        NO
+    SCALE                 1
+    SUPPRESS-LEAD-ZEROES  YES
+    SUPPRESS-TRAIL-ZEROES NO
+    SUPPRESS-EQUAL        YES
+    UNDEF-APT-CONT        NO
+
+ WARNING: for raster artwork formats, artwork accuracy must be
+  at least one place greater than the database accuracy, up
+  to the maximum accuracy allowed by the selected output format.
+
+  Increase the accuracy by increasing the "Decimal Places" in
+  the FORMAT section of the artwork parameters and then rerun
+  artwork.
+
+  The current output is rounding down the data.  Failure to change
+  the format may result in inaccurate arc coordinates in the output
+  files and possible shape/void plotting failures.
+
+
+================================================================
+     PROCESSING FILM < silkb >
+     TO FILE < D:/Misc/Misc/808BD/worklib/808bd/physical/silkb.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: rectangle or unfilled shape composed 0 width line found at (15240.000 9880.000)
+           ... ignored.
+
+    WARNING: text composed 0 width line found at (15342.500 10160.000)
+           ... ignored.
+
+    WARNING: text having Multiple 0 width lines; all will be treated the same as the first.
+           ... ignored.
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.01000                                  DARK 
+
+     silkb created with warnings
+
+
+------------------------------------------------------
+ SUMMARY:
+        silkb created with warnings
+
+ ARTWORK had warnings

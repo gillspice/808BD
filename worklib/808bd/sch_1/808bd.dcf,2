@@ -1,0 +1,4140 @@
+( ConstraintFile "\808bd\"
+	( constraintHeader
+		( objectKey
+			( logical )
+		)
+		( version
+			( 16.6 )
+		)
+		( revisionNumber
+			( logicalViewRevNum 2 )
+			( physicalViewRevNum 0 )
+			( otherViewRevNum 0 )
+		)
+		( contents
+			( dictionaryExtensions )
+			( worksheetCustomizations )
+			( electricalConstraints )
+			( netClasses )
+			( properties )
+		)
+		( precision
+			( units mil )
+			( numberOfDecimalPlaces 2 )
+		)
+	)
+	( DictionaryExtensions
+		( Attribute
+			( Name "CDS_LMAN_SYM_OUTLINE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oBlock  oPart  oDesign  oSystem  oGateDefn  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "TYPE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oBlock  oPart  oDesign  oSystem  oGateDefn  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "WATTAGE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oBlock  oPart  oDesign  oSystem  oGateDefn  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "IC" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oBlock  oPart  oDesign  oSystem  oGateDefn  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "VCEO" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oBlock  oPart  oDesign  oSystem  oGateDefn  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "VOLT" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oBlock  oPart  oDesign  oSystem  oGateDefn  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "CLOCK" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oPin )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "IF" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oBlock  oPart  oDesign  oSystem  oGateDefn  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "VRRM" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oBlock  oPart  oDesign  oSystem  oGateDefn  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "TEMP" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oBlock  oPart  oDesign  oSystem  oGateDefn  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+	)
+	( designConstraints
+		( ruleChanges
+			( allRules )
+			( design "\808bd\"
+				( objectStatus "808bd" )
+			)
+			( signal "@\808bd_lib\.\808bd\(sch_1):\+15v\"
+				( attribute "CDS_PHYS_NET_NAME" "+15V"
+					( Origin gPackager )
+				)
+				( objectStatus "+15v" )
+			)
+			( signal "@\808bd_lib\.\808bd\(sch_1):\-15v\"
+				( attribute "CDS_PHYS_NET_NAME" "-15V"
+					( Origin gPackager )
+				)
+				( objectStatus "-15v" )
+			)
+			( signal "@\808bd_lib\.\808bd\(sch_1):gnd_signal"
+				( alias ( signalRef "@\808bd_lib\.\808bd\(sch_1):page1_gnd_signal") )
+				( attribute "CDS_PHYS_NET_NAME" "GND_SIGNAL"
+					( Origin gPackager )
+				)
+				( objectStatus "gnd_signal" )
+			)
+			( signal "@\808bd_lib\.\808bd\(sch_1):page1_gnd_signal"
+				( objectFlag fObjectAlias )
+				( objectStatus "page1_gnd_signal" )
+			)
+			( signal "@\808bd_lib\.\808bd\(sch_1):unnamed_1_csmt_i19_1"
+				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_1_CSMT_I19_1"
+					( Origin gPackager )
+				)
+				( objectStatus "unnamed_1_csmt_i19_1" )
+			)
+			( signal "@\808bd_lib\.\808bd\(sch_1):unnamed_1_csmt_i19_2"
+				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_1_CSMT_I19_2"
+					( Origin gPackager )
+				)
+				( objectStatus "unnamed_1_csmt_i19_2" )
+			)
+			( signal "@\808bd_lib\.\808bd\(sch_1):unnamed_1_csmt_i24_1"
+				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_1_CSMT_I24_1"
+					( Origin gPackager )
+				)
+				( objectStatus "unnamed_1_csmt_i24_1" )
+			)
+			( signal "@\808bd_lib\.\808bd\(sch_1):unnamed_1_csmt_i30_1"
+				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_1_CSMT_I30_1"
+					( Origin gPackager )
+				)
+				( objectStatus "unnamed_1_csmt_i30_1" )
+			)
+			( signal "@\808bd_lib\.\808bd\(sch_1):unnamed_1_csmt_i30_2"
+				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_1_CSMT_I30_2"
+					( Origin gPackager )
+				)
+				( objectStatus "unnamed_1_csmt_i30_2" )
+			)
+			( signal "@\808bd_lib\.\808bd\(sch_1):unnamed_1_csmt_i33_1"
+				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_1_CSMT_I33_1"
+					( Origin gPackager )
+				)
+				( objectStatus "unnamed_1_csmt_i33_1" )
+			)
+			( signal "@\808bd_lib\.\808bd\(sch_1):unnamed_1_csmt_i33_2"
+				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_1_CSMT_I33_2"
+					( Origin gPackager )
+				)
+				( objectStatus "unnamed_1_csmt_i33_2" )
+			)
+			( signal "@\808bd_lib\.\808bd\(sch_1):unnamed_1_csmt_i34_2"
+				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_1_CSMT_I34_2"
+					( Origin gPackager )
+				)
+				( objectStatus "unnamed_1_csmt_i34_2" )
+			)
+			( signal "@\808bd_lib\.\808bd\(sch_1):unnamed_1_csmt_i35_1"
+				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_1_CSMT_I35_1"
+					( Origin gPackager )
+				)
+				( objectStatus "unnamed_1_csmt_i35_1" )
+			)
+			( signal "@\808bd_lib\.\808bd\(sch_1):unnamed_1_csmt_i47_1"
+				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_1_CSMT_I47_1"
+					( Origin gPackager )
+				)
+				( objectStatus "unnamed_1_csmt_i47_1" )
+			)
+			( signal "@\808bd_lib\.\808bd\(sch_1):unnamed_1_cthlytic85_i56_1"
+				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_1_CTHLYTIC85_I56_1"
+					( Origin gPackager )
+				)
+				( objectStatus "unnamed_1_cthlytic85_i56_1" )
+			)
+			( signal "@\808bd_lib\.\808bd\(sch_1):unnamed_1_cthlytic85_i57_1"
+				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_1_CTHLYTIC85_I57_1"
+					( Origin gPackager )
+				)
+				( objectStatus "unnamed_1_cthlytic85_i57_1" )
+			)
+			( signal "@\808bd_lib\.\808bd\(sch_1):unnamed_1_cthlytic85_i58_2"
+				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_1_CTHLYTIC85_I58_2"
+					( Origin gPackager )
+				)
+				( objectStatus "unnamed_1_cthlytic85_i58_2" )
+			)
+			( signal "@\808bd_lib\.\808bd\(sch_1):unnamed_1_cthlytic85_i61_1"
+				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_1_CTHLYTIC85_I61_1"
+					( Origin gPackager )
+				)
+				( objectStatus "unnamed_1_cthlytic85_i61_1" )
+			)
+			( signal "@\808bd_lib\.\808bd\(sch_1):unnamed_1_cthlytic85_i61_2"
+				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_1_CTHLYTIC85_I61_2"
+					( Origin gPackager )
+				)
+				( objectStatus "unnamed_1_cthlytic85_i61_2" )
+			)
+			( signal "@\808bd_lib\.\808bd\(sch_1):unnamed_1_j2st_i70_1"
+				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_1_J2ST_I70_1"
+					( Origin gPackager )
+				)
+				( objectStatus "unnamed_1_j2st_i70_1" )
+			)
+			( signal "@\808bd_lib\.\808bd\(sch_1):unnamed_1_j2st_i71_2"
+				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_1_J2ST_I71_2"
+					( Origin gPackager )
+				)
+				( objectStatus "unnamed_1_j2st_i71_2" )
+			)
+			( signal "@\808bd_lib\.\808bd\(sch_1):unnamed_1_j3st_i76_1"
+				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_1_J3ST_I76_1"
+					( Origin gPackager )
+				)
+				( objectStatus "unnamed_1_j3st_i76_1" )
+			)
+			( signal "@\808bd_lib\.\808bd\(sch_1):unnamed_1_qnpnsignal_i15_b"
+				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_1_QNPNSIGNAL_I15_B"
+					( Origin gPackager )
+				)
+				( objectStatus "unnamed_1_qnpnsignal_i15_b" )
+			)
+			( signal "@\808bd_lib\.\808bd\(sch_1):unnamed_1_qnpnsignal_i15_c"
+				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_1_QNPNSIGNAL_I15_C"
+					( Origin gPackager )
+				)
+				( objectStatus "unnamed_1_qnpnsignal_i15_c" )
+			)
+			( signal "@\808bd_lib\.\808bd\(sch_1):unnamed_1_qnpnsignal_i18_b"
+				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_1_QNPNSIGNAL_I18_B"
+					( Origin gPackager )
+				)
+				( objectStatus "unnamed_1_qnpnsignal_i18_b" )
+			)
+			( signal "@\808bd_lib\.\808bd\(sch_1):unnamed_1_qnpnsignal_i38_b"
+				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_1_QNPNSIGNAL_I38_B"
+					( Origin gPackager )
+				)
+				( objectStatus "unnamed_1_qnpnsignal_i38_b" )
+			)
+			( signal "@\808bd_lib\.\808bd\(sch_1):unnamed_1_qnpnsignal_i38_c"
+				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_1_QNPNSIGNAL_I38_C"
+					( Origin gPackager )
+				)
+				( objectStatus "unnamed_1_qnpnsignal_i38_c" )
+			)
+			( signal "@\808bd_lib\.\808bd\(sch_1):unnamed_1_qnpnsignal_i62_b"
+				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_1_QNPNSIGNAL_I62_B"
+					( Origin gPackager )
+				)
+				( objectStatus "unnamed_1_qnpnsignal_i62_b" )
+			)
+			( signal "@\808bd_lib\.\808bd\(sch_1):unnamed_1_qpnpsignal_i16_b"
+				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_1_QPNPSIGNAL_I16_B"
+					( Origin gPackager )
+				)
+				( objectStatus "unnamed_1_qpnpsignal_i16_b" )
+			)
+			( signal "@\808bd_lib\.\808bd\(sch_1):unnamed_1_qpnpsignal_i16_e"
+				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_1_QPNPSIGNAL_I16_E"
+					( Origin gPackager )
+				)
+				( objectStatus "unnamed_1_qpnpsignal_i16_e" )
+			)
+			( signal "@\808bd_lib\.\808bd\(sch_1):unnamed_1_rsmt_i43_2"
+				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_1_RSMT_I43_2"
+					( Origin gPackager )
+				)
+				( objectStatus "unnamed_1_rsmt_i43_2" )
+			)
+			( signal "@\808bd_lib\.\808bd\(sch_1):unnamed_1_rsmt_i45_1"
+				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_1_RSMT_I45_1"
+					( Origin gPackager )
+				)
+				( objectStatus "unnamed_1_rsmt_i45_1" )
+			)
+			( signal "@\808bd_lib\.\808bd\(sch_1):unnamed_1_rsmt_i52_2"
+				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_1_RSMT_I52_2"
+					( Origin gPackager )
+				)
+				( objectStatus "unnamed_1_rsmt_i52_2" )
+			)
+			( signal "@\808bd_lib\.\808bd\(sch_1):unnamed_1_rsmt_i53_2"
+				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_1_RSMT_I53_2"
+					( Origin gPackager )
+				)
+				( objectStatus "unnamed_1_rsmt_i53_2" )
+			)
+			( gate "@\808bd_lib\.\808bd\(sch_1):page1_i1"
+				( attribute "CDS_LIB" "r_resistor"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-75,25,75,-25"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "R2"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "JEDEC_TYPE" "RESC-0805_W"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "R2"
+					( Origin gPackager )
+				)
+				( attribute "NEEDS_NO_SIZE" "True"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "R_SMT_0805"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NUMBER" "10006490"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "TOL" "5%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TYPE" "TF-SMT0805"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "10K"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "WATTAGE" "1/8W"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-9900,3000)"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "PAGE1_I1" )
+			)
+			( gate "@\808bd_lib\.\808bd\(sch_1):page1_i4"
+				( attribute "CDS_LIB" "r_resistor"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-75,25,75,-25"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "R20"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "JEDEC_TYPE" "RES_12P5_3D_0P9H"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "R20"
+					( Origin gPackager )
+				)
+				( attribute "NEEDS_NO_SIZE" "True"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "R_TH_CARBON_1_4W"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NUMBER" "10013804"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "TOL" "5%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TYPE" "CARBON"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "47K"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "WATTAGE" "1/4W"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-4175,5300)"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "PAGE1_I4" )
+			)
+			( gate "@\808bd_lib\.\808bd\(sch_1):page1_i5"
+				( attribute "CDS_LIB" "r_resistor"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-75,25,75,-25"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "R1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "JEDEC_TYPE" "RESC-0805_W"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "R1"
+					( Origin gPackager )
+				)
+				( attribute "NEEDS_NO_SIZE" "True"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "R_SMT_0805"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NUMBER" "10006498"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "TOL" "5%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TYPE" "TF-SMT0805"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "22K"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "WATTAGE" "1/8W"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-9900,3675)"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "PAGE1_I5" )
+			)
+			( gate "@\808bd_lib\.\808bd\(sch_1):page1_i6"
+				( attribute "CDS_LIB" "r_resistor"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-75,25,75,-25"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "R3"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "JEDEC_TYPE" "RESC-0805_W"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "R3"
+					( Origin gPackager )
+				)
+				( attribute "NEEDS_NO_SIZE" "True"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "R_SMT_0805"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NUMBER" "10006482"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "TOL" "5%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TYPE" "TF-SMT0805"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "4.7K"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "WATTAGE" "1/8W"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-9500,4525)"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "PAGE1_I6" )
+			)
+			( gate "@\808bd_lib\.\808bd\(sch_1):page1_i8"
+				( attribute "CDS_LIB" "r_resistor"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-75,25,75,-25"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "R6"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "JEDEC_TYPE" "RESC-0805_W"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "R6"
+					( Origin gPackager )
+				)
+				( attribute "NEEDS_NO_SIZE" "True"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "R_SMT_0805"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NUMBER" "10006488"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "TOL" "5%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TYPE" "TF-SMT0805"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "8.2K"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "WATTAGE" "1/8W"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-8225,4575)"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "PAGE1_I8" )
+			)
+			( gate "@\808bd_lib\.\808bd\(sch_1):page1_i9"
+				( attribute "CDS_LIB" "r_resistor"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-75,25,75,-25"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "R7"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "JEDEC_TYPE" "RESC-0805_W"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "R7"
+					( Origin gPackager )
+				)
+				( attribute "NEEDS_NO_SIZE" "True"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "R_SMT_0805"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NUMBER" "10006476"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "TOL" "5%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TYPE" "TF-SMT0805"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "2.7K"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "WATTAGE" "1/8W"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-7975,4300)"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "PAGE1_I9" )
+			)
+			( gate "@\808bd_lib\.\808bd\(sch_1):page1_i10"
+				( attribute "CDS_LIB" "r_resistor"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-75,25,75,-25"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "R9"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "JEDEC_TYPE" "RESC-2010_W"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "R9"
+					( Origin gPackager )
+				)
+				( attribute "NEEDS_NO_SIZE" "True"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "R_SMT_2010"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NUMBER" "10006228"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "TOL" "5%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TYPE" "TF-SMT2010"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "1.0M"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "WATTAGE" "3/4W"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-7700,5075)"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "PAGE1_I10" )
+			)
+			( gate "@\808bd_lib\.\808bd\(sch_1):page1_i12"
+				( attribute "CDS_LIB" "r_resistor"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-75,25,75,-25"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "R5"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "JEDEC_TYPE" "RESC-0805_W"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "R5"
+					( Origin gPackager )
+				)
+				( attribute "NEEDS_NO_SIZE" "True"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "R_SMT_0805"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NUMBER" "10006514"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "TOL" "5%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TYPE" "TF-SMT0805"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "100K"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "WATTAGE" "1/8W"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-8575,3675)"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "PAGE1_I12" )
+			)
+			( gate "@\808bd_lib\.\808bd\(sch_1):page1_i14"
+				( attribute "CDS_LIB" "r_resistor"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-75,25,75,-25"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "R17"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "JEDEC_TYPE" "RESC-0805_W"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "R17"
+					( Origin gPackager )
+				)
+				( attribute "NEEDS_NO_SIZE" "True"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "R_SMT_0805"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NUMBER" "10006530"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "TOL" "5%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TYPE" "TF-SMT0805"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "470K"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "WATTAGE" "1/8W"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-5025,5550)"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "PAGE1_I14" )
+			)
+			( gate "@\808bd_lib\.\808bd\(sch_1):page1_i15"
+				( attribute "CDS_LIB" "q_transistor"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-150,125,100,-125"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "Q1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "IC" "0.15A"
+					( Origin gFrontEnd )
+				)
+				( attribute "JEDEC_TYPE" "SOT-323_W"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "Q1"
+					( Origin gPackager )
+				)
+				( attribute "NEEDS_NO_SIZE" "TRUE"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "Q_NPN_SIGNAL_BEC_SOT-323"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NUMBER" "10005453"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "TYPE" "NPN SIGNAL"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "FJX945"
+					( Origin gFrontEnd )
+				)
+				( attribute "VCEO" "50V"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-9550,3300)"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "PAGE1_I15" )
+			)
+			( gate "@\808bd_lib\.\808bd\(sch_1):page1_i16"
+				( attribute "CDS_LIB" "q_transistor"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-150,125,100,-125"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "Q2"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "IC" "0.15A"
+					( Origin gFrontEnd )
+				)
+				( attribute "JEDEC_TYPE" "SOT-323_W"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "Q2"
+					( Origin gPackager )
+				)
+				( attribute "NEEDS_NO_SIZE" "TRUE"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "Q_PNP_SIGNAL_BEC_SOT-323"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NUMBER" "10005646"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "6"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "TYPE" "PNP SIGNAL"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "FJX733"
+					( Origin gFrontEnd )
+				)
+				( attribute "VCEO" "50V"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-9150,4200)"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "PAGE1_I16" )
+			)
+			( gate "@\808bd_lib\.\808bd\(sch_1):page1_i17"
+				( attribute "CDS_LIB" "r_resistor"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-75,25,75,-25"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "R4"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "JEDEC_TYPE" "RESC-0805_W"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "R4"
+					( Origin gPackager )
+				)
+				( attribute "NEEDS_NO_SIZE" "True"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "R_SMT_0805"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NUMBER" "10006490"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "TOL" "5%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TYPE" "TF-SMT0805"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "10K"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "WATTAGE" "1/8W"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-9500,3850)"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "PAGE1_I17" )
+			)
+			( gate "@\808bd_lib\.\808bd\(sch_1):page1_i18"
+				( attribute "CDS_LIB" "q_transistor"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-150,125,100,-125"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "Q3"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "IC" "0.15A"
+					( Origin gFrontEnd )
+				)
+				( attribute "JEDEC_TYPE" "SOT-323_W"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "Q3"
+					( Origin gPackager )
+				)
+				( attribute "NEEDS_NO_SIZE" "TRUE"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "Q_NPN_SIGNAL_BEC_SOT-323"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NUMBER" "10005453"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "TYPE" "NPN SIGNAL"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "FJX945"
+					( Origin gFrontEnd )
+				)
+				( attribute "VCEO" "50V"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-7750,4575)"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "PAGE1_I18" )
+			)
+			( gate "@\808bd_lib\.\808bd\(sch_1):page1_i19"
+				( attribute "CDS_LIB" "c_capacitor"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,25,50,-25"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "C1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "JEDEC_TYPE" "CAPC-0805_W"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "C1"
+					( Origin gPackager )
+				)
+				( attribute "NEEDS_NO_SIZE" "true"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "C_SMT_X7R_0805"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NUMBER" "10000435"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "TOL" "5%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TYPE" "X7R"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "0.015UF"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLT" "25V"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-8600,3950)"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "PAGE1_I19" )
+			)
+			( gate "@\808bd_lib\.\808bd\(sch_1):page1_i24"
+				( attribute "CDS_LIB" "c_capacitor"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,25,50,-25"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "C2"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "JEDEC_TYPE" "CAPC-0805_W"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "C2"
+					( Origin gPackager )
+				)
+				( attribute "NEEDS_NO_SIZE" "true"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "C_SMT_X7R_0805"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NUMBER" "10000445"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "TOL" "5%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TYPE" "X7R"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "0.1UF"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLT" "25V"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-7300,4500)"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "PAGE1_I24" )
+			)
+			( gate "@\808bd_lib\.\808bd\(sch_1):page1_i25"
+				( attribute "CDS_LIB" "r_resistor"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-75,25,75,-25"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "R8"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "JEDEC_TYPE" "RESC-0805_W"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "R8"
+					( Origin gPackager )
+				)
+				( attribute "NEEDS_NO_SIZE" "True"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "R_SMT_0805"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NUMBER" "10006482"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "TOL" "5%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TYPE" "TF-SMT0805"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "4.7K"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "WATTAGE" "1/8W"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-7875,3525)"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "PAGE1_I25" )
+			)
+			( gate "@\808bd_lib\.\808bd\(sch_1):page1_i26"
+				( attribute "CDS_LIB" "d_diode"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,50,50,-50"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "D1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "IF" "200MA"
+					( Origin gFrontEnd )
+				)
+				( attribute "JEDEC_TYPE" "SOT-23_W"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "D1"
+					( Origin gPackager )
+				)
+				( attribute "NEEDS_NO_SIZE" "true"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "D_SMT_SIGNAL_1A3C_SOT-23"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NUMBER" "10004947"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "TYPE" "SIGNAL-3PIN"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "MMBD4148"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VRRM" "75V"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-7425,3525)"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "PAGE1_I26" )
+			)
+			( gate "@\808bd_lib\.\808bd\(sch_1):page1_i27"
+				( attribute "CDS_LIB" "q_transistor"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-150,125,100,-125"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "Q4"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "IC" "0.15A"
+					( Origin gFrontEnd )
+				)
+				( attribute "JEDEC_TYPE" "SOT-323_W"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "Q4"
+					( Origin gPackager )
+				)
+				( attribute "NEEDS_NO_SIZE" "TRUE"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "Q_NPN_SIGNAL_BEC_SOT-323"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NUMBER" "10005453"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "TYPE" "NPN SIGNAL"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "FJX945"
+					( Origin gFrontEnd )
+				)
+				( attribute "VCEO" "50V"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-6775,4850)"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "PAGE1_I27" )
+			)
+			( gate "@\808bd_lib\.\808bd\(sch_1):page1_i28"
+				( attribute "CDS_LIB" "r_resistor"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-75,25,75,-25"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "R10"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "JEDEC_TYPE" "RESC-2010_W"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "R10"
+					( Origin gPackager )
+				)
+				( attribute "NEEDS_NO_SIZE" "True"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "R_SMT_2010"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NUMBER" "10006188"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "TOL" "5%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TYPE" "TF-SMT2010"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "22K"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "WATTAGE" "3/4W"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-6725,5300)"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "PAGE1_I28" )
+			)
+			( gate "@\808bd_lib\.\808bd\(sch_1):page1_i29"
+				( attribute "CDS_LIB" "r_resistor"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-75,25,75,-25"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "R11"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "JEDEC_TYPE" "RESC-2010_W"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "R11"
+					( Origin gPackager )
+				)
+				( attribute "NEEDS_NO_SIZE" "True"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "R_SMT_2010"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NUMBER" "10006204"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "TOL" "5%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TYPE" "TF-SMT2010"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "100K"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "WATTAGE" "3/4W"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-6275,4750)"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "PAGE1_I29" )
+			)
+			( gate "@\808bd_lib\.\808bd\(sch_1):page1_i30"
+				( attribute "CDS_LIB" "c_capacitor"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,25,50,-25"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "C3"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "JEDEC_TYPE" "CAPC-0805_W"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "C3"
+					( Origin gPackager )
+				)
+				( attribute "NEEDS_NO_SIZE" "true"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "C_SMT_X7R_0805"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NUMBER" "10000439"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "TOL" "5%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TYPE" "X7R"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "0.033UF"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLT" "25V"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-6300,5550)"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "PAGE1_I30" )
+			)
+			( gate "@\808bd_lib\.\808bd\(sch_1):page1_i33"
+				( attribute "CDS_LIB" "c_capacitor"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,25,50,-25"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "C4"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "JEDEC_TYPE" "CAPC-0805_W"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "C4"
+					( Origin gPackager )
+				)
+				( attribute "NEEDS_NO_SIZE" "true"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "C_SMT_X7R_0805"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NUMBER" "10000435"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "TOL" "5%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TYPE" "X7R"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "0.015UF"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLT" "25V"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-5625,5300)"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "PAGE1_I33" )
+			)
+			( gate "@\808bd_lib\.\808bd\(sch_1):page1_i34"
+				( attribute "CDS_LIB" "c_capacitor"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,25,50,-25"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "C5"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "JEDEC_TYPE" "CAPC-0805_W"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "C5"
+					( Origin gPackager )
+				)
+				( attribute "NEEDS_NO_SIZE" "true"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "C_SMT_X7R_0805"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NUMBER" "10000435"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "TOL" "5%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TYPE" "X7R"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "0.015UF"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLT" "25V"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-5150,5300)"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "PAGE1_I34" )
+			)
+			( gate "@\808bd_lib\.\808bd\(sch_1):page1_i35"
+				( attribute "CDS_LIB" "c_capacitor"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,25,50,-25"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "C11"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "JEDEC_TYPE" "CAPC-0805_W"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "C11"
+					( Origin gPackager )
+				)
+				( attribute "NEEDS_NO_SIZE" "true"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "C_SMT_X7R_0805"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NUMBER" "10000726"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "TOL" "20%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TYPE" "X7R"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "220PF"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLT" "50V"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-2025,3750)"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "PAGE1_I35" )
+			)
+			( gate "@\808bd_lib\.\808bd\(sch_1):page1_i36"
+				( attribute "CDS_LIB" "d_diode"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,50,50,-50"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "D2"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "IF" "200MA"
+					( Origin gFrontEnd )
+				)
+				( attribute "JEDEC_TYPE" "SOT-23_W"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "D2"
+					( Origin gPackager )
+				)
+				( attribute "NEEDS_NO_SIZE" "true"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "D_SMT_SIGNAL_1A3C_SOT-23"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NUMBER" "10004947"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "TYPE" "SIGNAL-3PIN"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "MMBD4148"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VRRM" "75V"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-6125,5275)"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "PAGE1_I36" )
+			)
+			( gate "@\808bd_lib\.\808bd\(sch_1):page1_i38"
+				( attribute "CDS_LIB" "q_transistor"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-150,125,100,-125"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "Q5"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "IC" "0.15A"
+					( Origin gFrontEnd )
+				)
+				( attribute "JEDEC_TYPE" "SOT-323_W"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "Q5"
+					( Origin gPackager )
+				)
+				( attribute "NEEDS_NO_SIZE" "TRUE"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "Q_NPN_SIGNAL_BEC_SOT-323"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NUMBER" "10005453"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "TYPE" "NPN SIGNAL"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "FJX945"
+					( Origin gFrontEnd )
+				)
+				( attribute "VCEO" "50V"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-5675,4750)"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "PAGE1_I38" )
+			)
+			( gate "@\808bd_lib\.\808bd\(sch_1):page1_i39"
+				( attribute "CDS_LIB" "r_resistor"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-75,25,75,-25"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "R12"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "JEDEC_TYPE" "RESC-0805_W"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "R12"
+					( Origin gPackager )
+				)
+				( attribute "NEEDS_NO_SIZE" "True"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "R_SMT_0805"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NUMBER" "10006538"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "TOL" "5%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TYPE" "TF-SMT0805"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "1.0M"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "WATTAGE" "1/8W"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-5625,5550)"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "PAGE1_I39" )
+			)
+			( gate "@\808bd_lib\.\808bd\(sch_1):page1_i40"
+				( attribute "CDS_LIB" "r_resistor"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-75,25,75,-25"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "R13"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "JEDEC_TYPE" "RESC-0805_W"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "R13"
+					( Origin gPackager )
+				)
+				( attribute "NEEDS_NO_SIZE" "True"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "R_SMT_0805"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NUMBER" "10006486"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "TOL" "5%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TYPE" "TF-SMT0805"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "6.8K"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "WATTAGE" "1/8W"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-5400,5100)"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "PAGE1_I40" )
+			)
+			( gate "@\808bd_lib\.\808bd\(sch_1):page1_i41"
+				( attribute "CDS_LIB" "r_resistor"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-75,25,75,-25"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "R14"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "JEDEC_TYPE" "RESC-0805_W"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "R14"
+					( Origin gPackager )
+				)
+				( attribute "NEEDS_NO_SIZE" "True"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "R_SMT_0805"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NUMBER" "10006538"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "TOL" "5%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TYPE" "TF-SMT0805"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "1.0M"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "WATTAGE" "1/8W"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-5400,4225)"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "PAGE1_I41" )
+			)
+			( gate "@\808bd_lib\.\808bd\(sch_1):page1_i43"
+				( attribute "CDS_LIB" "r_resistor"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-75,25,75,-25"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "R16"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "JEDEC_TYPE" "RESC-0805_W"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "R16"
+					( Origin gPackager )
+				)
+				( attribute "NEEDS_NO_SIZE" "True"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "R_SMT_0805"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NUMBER" "10006498"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "TOL" "5%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TYPE" "TF-SMT0805"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "22K"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "WATTAGE" "1/8W"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-5175,4700)"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "PAGE1_I43" )
+			)
+			( gate "@\808bd_lib\.\808bd\(sch_1):page1_i45"
+				( attribute "CDS_LIB" "r_resistor"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-75,25,75,-25"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "R19"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "JEDEC_TYPE" "RESC-0805_W"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "R19"
+					( Origin gPackager )
+				)
+				( attribute "NEEDS_NO_SIZE" "True"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "R_SMT_0805"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NUMBER" "10006450"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "TOL" "5%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TYPE" "TF-SMT0805"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "220"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "WATTAGE" "1/8W"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-4425,5050)"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "PAGE1_I45" )
+			)
+			( gate "@\808bd_lib\.\808bd\(sch_1):page1_i46"
+				( attribute "CDS_LIB" "r_resistor"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-75,25,75,-25"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "R18"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "JEDEC_TYPE" "RESC-0805_W"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "R18"
+					( Origin gPackager )
+				)
+				( attribute "NEEDS_NO_SIZE" "True"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "R_SMT_0805"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NUMBER" "10006490"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "TOL" "5%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TYPE" "TF-SMT0805"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "10K"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "WATTAGE" "1/8W"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-4600,4700)"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "PAGE1_I46" )
+			)
+			( gate "@\808bd_lib\.\808bd\(sch_1):page1_i47"
+				( attribute "CDS_LIB" "c_capacitor"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,25,50,-25"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "C6"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "JEDEC_TYPE" "CAPC-0805_W"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "C6"
+					( Origin gPackager )
+				)
+				( attribute "NEEDS_NO_SIZE" "true"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "C_SMT_X7R_0805"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NUMBER" "10000445"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "TOL" "5%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TYPE" "X7R"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "0.1UF"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLT" "25V"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-4450,4200)"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "PAGE1_I47" )
+			)
+			( gate "@\808bd_lib\.\808bd\(sch_1):page1_i49"
+				( attribute "CDS_LIB" "u_ic"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-150,125,50,-125"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "U1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "JEDEC_TYPE" "SO8"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "U1"
+					( Origin gPackager )
+				)
+				( attribute "PART_NAME" "U_LM258D_SO8"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NUMBER" "10019370"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "VALUE" "LM258D"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-5350,3875)"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "PAGE1_I49" )
+			)
+			( gate "@\808bd_lib\.\808bd\(sch_1):page1_i50"
+				( attribute "CDS_LIB" "u_ic"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-150,100,50,-100"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "U1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "2"
+					( Origin gPackager )
+				)
+				( attribute "JEDEC_TYPE" "SO8"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "U1"
+					( Origin gPackager )
+				)
+				( attribute "PART_NAME" "U_LM258D_SO8"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NUMBER" "10019370"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "2"
+					( Origin gPackager )
+				)
+				( attribute "VALUE" "LM258D"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-3625,5100)"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "PAGE1_I50" )
+			)
+			( gate "@\808bd_lib\.\808bd\(sch_1):page1_i51"
+				( attribute "CDS_LIB" "u_ic"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-150,100,50,-100"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "U1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "3"
+					( Origin gPackager )
+				)
+				( attribute "JEDEC_TYPE" "SO8"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "U1"
+					( Origin gPackager )
+				)
+				( attribute "PART_NAME" "U_LM258D_SO8"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NUMBER" "10019370"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "3"
+					( Origin gPackager )
+				)
+				( attribute "VALUE" "LM258D"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "3"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-5650,3025)"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "PAGE1_I51" )
+			)
+			( gate "@\808bd_lib\.\808bd\(sch_1):page1_i52"
+				( attribute "CDS_LIB" "r_resistor"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-75,25,75,-25"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "R25"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "JEDEC_TYPE" "RESC-0805_W"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "R25"
+					( Origin gPackager )
+				)
+				( attribute "NEEDS_NO_SIZE" "True"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "R_SMT_0805"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NUMBER" "10006506"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "TOL" "5%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TYPE" "TF-SMT0805"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "47K"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "WATTAGE" "1/8W"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-3650,5300)"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "PAGE1_I52" )
+			)
+			( gate "@\808bd_lib\.\808bd\(sch_1):page1_i53"
+				( attribute "CDS_LIB" "r_resistor"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-75,25,75,-25"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "R22"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "JEDEC_TYPE" "RESC-2010_W"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "R22"
+					( Origin gPackager )
+				)
+				( attribute "NEEDS_NO_SIZE" "True"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "R_SMT_2010"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NUMBER" "10006176"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "TOL" "5%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TYPE" "TF-SMT2010"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "6.8K"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "WATTAGE" "3/4W"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-3925,4900)"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "PAGE1_I53" )
+			)
+			( gate "@\808bd_lib\.\808bd\(sch_1):page1_i56"
+				( attribute "CDS_LIB" "c_capacitor"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,25,50,-50"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "C8"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "JEDEC_TYPE" "CAPE_2P0_5X11P5"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "C8"
+					( Origin gPackager )
+				)
+				( attribute "NEEDS_NO_SIZE" "TRUE"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "C_TH_LYTIC85_2P0_5X11P5"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NUMBER" "10002898"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "TEMP" "85C"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL" "20%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TYPE" "RADIAL"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "33UF"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLT" "6.3VDC"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-3450,5625)"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "PAGE1_I56" )
+			)
+			( gate "@\808bd_lib\.\808bd\(sch_1):page1_i57"
+				( attribute "CDS_LIB" "c_capacitor"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,25,50,-50"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "C7"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "JEDEC_TYPE" "CAPE_2P5_6P3X11P5"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "C7"
+					( Origin gPackager )
+				)
+				( attribute "NEEDS_NO_SIZE" "TRUE"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "C_TH_LYTIC85_2P5_6P3X11P5"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NUMBER" "10002982"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "7"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "TEMP" "85C"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL" "20%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TYPE" "RADIAL"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "47UF"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLT" "50VDC"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-4025,4375)"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "PAGE1_I57" )
+			)
+			( gate "@\808bd_lib\.\808bd\(sch_1):page1_i58"
+				( attribute "CDS_LIB" "c_capacitor"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,25,50,-50"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "C10"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "JEDEC_TYPE" "CAPE_2P0_5X11P5"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "C10"
+					( Origin gPackager )
+				)
+				( attribute "NEEDS_NO_SIZE" "TRUE"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "C_TH_LYTIC85_2P0_5X11P5"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NUMBER" "10002975"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "4"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "TEMP" "85C"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL" "20%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TYPE" "RADIAL"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "1.0UF"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLT" "50VDC"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-2025,4875)"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "PAGE1_I58" )
+			)
+			( gate "@\808bd_lib\.\808bd\(sch_1):page1_i61"
+				( attribute "CDS_LIB" "c_capacitor"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,25,50,-50"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "C9"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "JEDEC_TYPE" "CAPE_2P5_6P3X11P5"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "C9"
+					( Origin gPackager )
+				)
+				( attribute "NEEDS_NO_SIZE" "TRUE"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "C_TH_LYTIC85_2P5_6P3X11P5"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NUMBER" "10002982"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "TEMP" "85C"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL" "20%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TYPE" "RADIAL"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "47UF"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLT" "50VDC"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-3200,4125)"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "PAGE1_I61" )
+			)
+			( gate "@\808bd_lib\.\808bd\(sch_1):page1_i62"
+				( attribute "CDS_LIB" "q_transistor"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-150,125,100,-125"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "Q6"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "IC" "0.15A"
+					( Origin gFrontEnd )
+				)
+				( attribute "JEDEC_TYPE" "SOT-323_W"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "Q6"
+					( Origin gPackager )
+				)
+				( attribute "NEEDS_NO_SIZE" "TRUE"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "Q_NPN_SIGNAL_BEC_SOT-323"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NUMBER" "10005453"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "TYPE" "NPN SIGNAL"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "FJX945"
+					( Origin gFrontEnd )
+				)
+				( attribute "VCEO" "50V"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-2450,4125)"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "PAGE1_I62" )
+			)
+			( gate "@\808bd_lib\.\808bd\(sch_1):page1_i63"
+				( attribute "CDS_LIB" "r_resistor"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-75,25,75,-25"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "R27"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "JEDEC_TYPE" "RESC-0805_W"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "R27"
+					( Origin gPackager )
+				)
+				( attribute "NEEDS_NO_SIZE" "True"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "R_SMT_0805"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NUMBER" "10006514"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "TOL" "5%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TYPE" "TF-SMT0805"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "100K"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "WATTAGE" "1/8W"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-2725,3850)"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "PAGE1_I63" )
+			)
+			( gate "@\808bd_lib\.\808bd\(sch_1):page1_i64"
+				( attribute "CDS_LIB" "r_resistor"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-75,25,75,-25"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "R26"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "JEDEC_TYPE" "RESC-0805_W"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "R26"
+					( Origin gPackager )
+				)
+				( attribute "NEEDS_NO_SIZE" "True"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "R_SMT_0805"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NUMBER" "10006512"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "TOL" "5%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TYPE" "TF-SMT0805"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "82K"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "WATTAGE" "1/8W"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-2875,4125)"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "PAGE1_I64" )
+			)
+			( gate "@\808bd_lib\.\808bd\(sch_1):page1_i65"
+				( attribute "CDS_LIB" "r_resistor"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-75,25,75,-25"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "R29"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "JEDEC_TYPE" "RESC-0805_W"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "R29"
+					( Origin gPackager )
+				)
+				( attribute "NEEDS_NO_SIZE" "True"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "R_SMT_0805"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NUMBER" "10006486"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "TOL" "5%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TYPE" "TF-SMT0805"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "6.8K"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "WATTAGE" "1/8W"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-2400,3750)"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "PAGE1_I65" )
+			)
+			( gate "@\808bd_lib\.\808bd\(sch_1):page1_i67"
+				( attribute "CDS_LIB" "r_resistor"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-75,25,75,-25"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "R28"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "JEDEC_TYPE" "RESC-0805_W"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "R28"
+					( Origin gPackager )
+				)
+				( attribute "NEEDS_NO_SIZE" "True"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "R_SMT_0805"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NUMBER" "10006514"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "TOL" "5%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TYPE" "TF-SMT0805"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "100K"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "WATTAGE" "1/8W"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-2475,4875)"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "PAGE1_I67" )
+			)
+			( gate "@\808bd_lib\.\808bd\(sch_1):page1_i69"
+				( attribute "CDS_LIB" "r_resistor"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-75,25,75,-25"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "R30"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "JEDEC_TYPE" "RESC-0805_W"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "R30"
+					( Origin gPackager )
+				)
+				( attribute "NEEDS_NO_SIZE" "True"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "R_SMT_0805"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NUMBER" "10006466"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "TOL" "5%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TYPE" "TF-SMT0805"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "1.0K"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "WATTAGE" "1/8W"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-2025,5550)"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "PAGE1_I69" )
+			)
+			( gate "@\808bd_lib\.\808bd\(sch_1):page1_i70"
+				( attribute "CDS_LIB" "j_connector2fjumper"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,100,100,-100"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "J3"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "JEDEC_TYPE" "CONN-AMP-2PIN-100MIL-ST"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "J3"
+					( Origin gPackager )
+				)
+				( attribute "NEEDS_NO_SIZE" "TRUE"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "J_2_ST_AMP_640452"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NUMBER" "10017071"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "VALUE" "640452-2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-1375,5750)"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "PAGE1_I70" )
+			)
+			( gate "@\808bd_lib\.\808bd\(sch_1):page1_i71"
+				( attribute "CDS_LIB" "j_connector2fjumper"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,100,100,-100"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "J1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "JEDEC_TYPE" "CONN-AMP-2PIN-100MIL-ST"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "J1"
+					( Origin gPackager )
+				)
+				( attribute "NEEDS_NO_SIZE" "TRUE"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "J_2_ST_AMP_640452"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NUMBER" "10017071"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "VALUE" "640452-2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-10425,4775)"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "PAGE1_I71" )
+			)
+			( gate "@\808bd_lib\.\808bd\(sch_1):page1_i73"
+				( attribute "CDS_LIB" "j_connector2fjumper"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,150,100,-150"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "J2"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "JEDEC_TYPE" "CONN-AMP-3PIN-100MIL-ST"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "J2"
+					( Origin gPackager )
+				)
+				( attribute "NEEDS_NO_SIZE" "TRUE"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "J_3_ST_AMP_640456"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NUMBER" "10017170"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "VALUE" "640456-3"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-4775,3050)"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "PAGE1_I73" )
+			)
+			( gate "@\808bd_lib\.\808bd\(sch_1):page1_i75"
+				( attribute "CDS_LIB" "j_connector2fjumper"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,150,100,-150"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "J7"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "JEDEC_TYPE" "CONN-AMP-3PIN-100MIL-ST"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "J7"
+					( Origin gPackager )
+				)
+				( attribute "NEEDS_NO_SIZE" "TRUE"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "J_3_ST_AMP_641215"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NUMBER" "10017175"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "6"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "VALUE" "641215-3"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-3775,4125)"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "PAGE1_I75" )
+			)
+			( gate "@\808bd_lib\.\808bd\(sch_1):page1_i76"
+				( attribute "CDS_LIB" "j_connector2fjumper"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,150,100,-150"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "J6"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "JEDEC_TYPE" "CONN-AMP-3PIN-100MIL-ST"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "J6"
+					( Origin gPackager )
+				)
+				( attribute "NEEDS_NO_SIZE" "TRUE"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "J_3_ST_AMP_641215"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NUMBER" "10017175"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "3"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "VALUE" "641215-3"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-3850,5925)"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "PAGE1_I76" )
+			)
+			( gate "@\808bd_lib\.\808bd\(sch_1):page1_i77"
+				( attribute "CDS_LIB" "j_connector2fjumper"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,150,100,-150"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "J5"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "JEDEC_TYPE" "CONN-AMP-3PIN-100MIL-ST"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "J5"
+					( Origin gPackager )
+				)
+				( attribute "NEEDS_NO_SIZE" "TRUE"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "J_3_ST_AMP_641215"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NUMBER" "10017175"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "4"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "VALUE" "641215-3"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-4225,4700)"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "PAGE1_I77" )
+			)
+			( gate "@\808bd_lib\.\808bd\(sch_1):page1_i78"
+				( attribute "CDS_LIB" "j_connector2fjumper"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,150,100,-150"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "J4"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "JEDEC_TYPE" "CONN-AMP-3PIN-100MIL-ST"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "J4"
+					( Origin gPackager )
+				)
+				( attribute "NEEDS_NO_SIZE" "TRUE"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "J_3_ST_AMP_641215"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NUMBER" "10017175"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "VALUE" "641215-3"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-4975,4950)"
+					( Origin gFrontEnd )
+				)
+				( objectStatus "PAGE1_I78" )
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i1:\1\"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i1:\2\"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i4:\1\"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i4:\2\"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i5:\1\"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i5:\2\"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i6:\1\"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i6:\2\"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i8:\1\"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i8:\2\"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i9:\1\"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i9:\2\"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i10:\1\"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i10:\2\"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i12:\1\"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i12:\2\"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i14:\1\"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i14:\2\"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i15:b"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i15:c"
+				( attribute "PN" "3"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i15:e"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i16:b"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i16:c"
+				( attribute "PN" "3"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i16:e"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i17:\1\"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i17:\2\"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i18:b"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i18:c"
+				( attribute "PN" "3"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i18:e"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i19:\1\"
+				( attribute "CLOCK" "False"
+					( Origin gFrontEnd )
+				)
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i19:\2\"
+				( attribute "CLOCK" "False"
+					( Origin gFrontEnd )
+				)
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i24:\1\"
+				( attribute "CLOCK" "False"
+					( Origin gFrontEnd )
+				)
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i24:\2\"
+				( attribute "CLOCK" "False"
+					( Origin gFrontEnd )
+				)
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i25:\1\"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i25:\2\"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i26:a"
+				( attribute "CLOCK" "False"
+					( Origin gFrontEnd )
+				)
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i26:c"
+				( attribute "CLOCK" "False"
+					( Origin gFrontEnd )
+				)
+				( attribute "PN" "3"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i27:b"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i27:c"
+				( attribute "PN" "3"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i27:e"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i28:\1\"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i28:\2\"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i29:\1\"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i29:\2\"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i30:\1\"
+				( attribute "CLOCK" "False"
+					( Origin gFrontEnd )
+				)
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i30:\2\"
+				( attribute "CLOCK" "False"
+					( Origin gFrontEnd )
+				)
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i33:\1\"
+				( attribute "CLOCK" "False"
+					( Origin gFrontEnd )
+				)
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i33:\2\"
+				( attribute "CLOCK" "False"
+					( Origin gFrontEnd )
+				)
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i34:\1\"
+				( attribute "CLOCK" "False"
+					( Origin gFrontEnd )
+				)
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i34:\2\"
+				( attribute "CLOCK" "False"
+					( Origin gFrontEnd )
+				)
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i35:\1\"
+				( attribute "CLOCK" "False"
+					( Origin gFrontEnd )
+				)
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i35:\2\"
+				( attribute "CLOCK" "False"
+					( Origin gFrontEnd )
+				)
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i36:a"
+				( attribute "CLOCK" "False"
+					( Origin gFrontEnd )
+				)
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i36:c"
+				( attribute "CLOCK" "False"
+					( Origin gFrontEnd )
+				)
+				( attribute "PN" "3"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i38:b"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i38:c"
+				( attribute "PN" "3"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i38:e"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i39:\1\"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i39:\2\"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i40:\1\"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i40:\2\"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i41:\1\"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i41:\2\"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i43:\1\"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i43:\2\"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i45:\1\"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i45:\2\"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i46:\1\"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i46:\2\"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i47:\1\"
+				( attribute "CLOCK" "False"
+					( Origin gFrontEnd )
+				)
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i47:\2\"
+				( attribute "CLOCK" "False"
+					( Origin gFrontEnd )
+				)
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i49:\1\"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i49:\2\"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i49:\3\"
+				( attribute "PN" "3"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i50:\5\"
+				( attribute "PN" "5"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i50:\6\"
+				( attribute "PN" "6"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i50:\7\"
+				( attribute "PN" "7"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i51:\4\"
+				( attribute "PN" "4"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i51:\8\"
+				( attribute "PN" "8"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i52:\1\"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i52:\2\"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i53:\1\"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i53:\2\"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i56:\1\"
+				( attribute "CLOCK" "False"
+					( Origin gFrontEnd )
+				)
+				( attribute "PN" "P"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i56:\2\"
+				( attribute "CLOCK" "False"
+					( Origin gFrontEnd )
+				)
+				( attribute "PN" "N"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i57:\1\"
+				( attribute "CLOCK" "False"
+					( Origin gFrontEnd )
+				)
+				( attribute "PN" "P"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i57:\2\"
+				( attribute "CLOCK" "False"
+					( Origin gFrontEnd )
+				)
+				( attribute "PN" "N"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i58:\1\"
+				( attribute "CLOCK" "False"
+					( Origin gFrontEnd )
+				)
+				( attribute "PN" "P"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i58:\2\"
+				( attribute "CLOCK" "False"
+					( Origin gFrontEnd )
+				)
+				( attribute "PN" "N"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i61:\1\"
+				( attribute "CLOCK" "False"
+					( Origin gFrontEnd )
+				)
+				( attribute "PN" "P"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i61:\2\"
+				( attribute "CLOCK" "False"
+					( Origin gFrontEnd )
+				)
+				( attribute "PN" "N"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i62:b"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i62:c"
+				( attribute "PN" "3"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i62:e"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i63:\1\"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i63:\2\"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i64:\1\"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i64:\2\"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i65:\1\"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i65:\2\"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i67:\1\"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i67:\2\"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i69:\1\"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i69:\2\"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i70:\1\"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i70:\2\"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i71:\1\"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i71:\2\"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i73:\1\"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i73:\2\"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i73:\3\"
+				( attribute "PN" "3"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i75:\1\"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i75:\2\"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i75:\3\"
+				( attribute "PN" "3"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i76:\1\"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i76:\2\"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i76:\3\"
+				( attribute "PN" "3"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i77:\1\"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i77:\2\"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i77:\3\"
+				( attribute "PN" "3"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i78:\1\"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i78:\2\"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@\808bd_lib\.\808bd\(sch_1):page1_i78:\3\"
+				( attribute "PN" "3"
+					( Origin gPackager )
+				)
+			)
+		)
+	)
+)

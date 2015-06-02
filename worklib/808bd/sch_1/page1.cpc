@@ -1,0 +1,204 @@
+#ISCELL
+  standard ge_c_size_page *
+  *
+#CELL
+  r_resistor r_smt *
+  page1_i1
+#CELL
+  r_resistor r_smt *
+  page1_i10
+#CELL
+  r_resistor r_smt *
+  page1_i12
+#CELL
+  r_resistor r_smt *
+  page1_i14
+#CELL
+  q_transistor q_npn_signal *
+  page1_i15
+#CELL
+  q_transistor q_pnp_signal *
+  page1_i16
+#CELL
+  r_resistor r_smt *
+  page1_i17
+#CELL
+  q_transistor q_npn_signal *
+  page1_i18
+#CELL
+  c_capacitor c_smt *
+  page1_i19
+#ISCELL
+  standard gnd_signal *
+  page1_i20
+#ISCELL
+  standard gnd_signal *
+  page1_i21
+#ISCELL
+  standard gnd_signal *
+  page1_i22
+#ISCELL
+  standard gnd_signal *
+  page1_i23
+#CELL
+  c_capacitor c_smt *
+  page1_i24
+#CELL
+  r_resistor r_smt *
+  page1_i25
+#CELL
+  d_diode d_smt_signal *
+  page1_i26
+#CELL
+  q_transistor q_npn_signal *
+  page1_i27
+#CELL
+  r_resistor r_smt *
+  page1_i28
+#CELL
+  r_resistor r_smt *
+  page1_i29
+#CELL
+  c_capacitor c_smt *
+  page1_i30
+#CELL
+  c_capacitor c_smt *
+  page1_i33
+#CELL
+  c_capacitor c_smt *
+  page1_i34
+#CELL
+  c_capacitor c_smt *
+  page1_i35
+#CELL
+  d_diode d_smt_signal *
+  page1_i36
+#ISCELL
+  standard gnd_signal *
+  page1_i37
+#CELL
+  q_transistor q_npn_signal *
+  page1_i38
+#CELL
+  r_resistor r_smt *
+  page1_i39
+#CELL
+  r_resistor r_th_carbon *
+  page1_i4
+#CELL
+  r_resistor r_smt *
+  page1_i40
+#CELL
+  r_resistor r_smt *
+  page1_i41
+#CELL
+  r_resistor r_smt *
+  page1_i43
+#ISCELL
+  standard gnd_signal *
+  page1_i44
+#CELL
+  r_resistor r_smt *
+  page1_i45
+#CELL
+  r_resistor r_smt *
+  page1_i46
+#CELL
+  c_capacitor c_smt *
+  page1_i47
+#CELL
+  u_ic u_lm258d *
+  page1_i49
+#CELL
+  r_resistor r_smt *
+  page1_i5
+#CELL
+  u_ic u_lm258d *
+  page1_i50
+#CELL
+  u_ic u_lm258d *
+  page1_i51
+#CELL
+  r_resistor r_smt *
+  page1_i52
+#CELL
+  r_resistor r_smt *
+  page1_i53
+#ISCELL
+  standard gnd_signal *
+  page1_i54
+#ISCELL
+  standard gnd_signal *
+  page1_i55
+#CELL
+  c_capacitor c_th_lytic85 *
+  page1_i56
+#CELL
+  c_capacitor c_th_lytic85 *
+  page1_i57
+#CELL
+  c_capacitor c_th_lytic85 *
+  page1_i58
+#CELL
+  r_resistor r_smt *
+  page1_i6
+#CELL
+  c_capacitor c_th_lytic85 *
+  page1_i61
+#CELL
+  q_transistor q_npn_signal *
+  page1_i62
+#CELL
+  r_resistor r_smt *
+  page1_i63
+#CELL
+  r_resistor r_smt *
+  page1_i64
+#CELL
+  r_resistor r_smt *
+  page1_i65
+#ISCELL
+  standard gnd_signal *
+  page1_i66
+#CELL
+  r_resistor r_smt *
+  page1_i67
+#ISCELL
+  standard gnd_signal *
+  page1_i68
+#CELL
+  r_resistor r_smt *
+  page1_i69
+#CELL
+  j_connector2fjumper j_2_st *
+  page1_i70
+#CELL
+  j_connector2fjumper j_2_st *
+  page1_i71
+#ISCELL
+  standard gnd_signal *
+  page1_i72
+#CELL
+  j_connector2fjumper j_3_st *
+  page1_i73
+#ISCELL
+  standard gnd_signal *
+  page1_i74
+#CELL
+  j_connector2fjumper j_3_st *
+  page1_i75
+#CELL
+  j_connector2fjumper j_3_st *
+  page1_i76
+#CELL
+  j_connector2fjumper j_3_st *
+  page1_i77
+#CELL
+  j_connector2fjumper j_3_st *
+  page1_i78
+#CELL
+  r_resistor r_smt *
+  page1_i8
+#CELL
+  r_resistor r_smt *
+  page1_i9
